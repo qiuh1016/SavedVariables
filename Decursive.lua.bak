@@ -1,0 +1,30 @@
+
+DecursiveDB = {
+	["profileKeys"] = {
+		["凛若 - 凯恩血蹄"] = "Default",
+	},
+	["class"] = {
+		["MAGE"] = {
+			["CureOrder"] = {
+				-13, -- [1]
+				-16, -- [2]
+				nil, -- [3]
+				1, -- [4]
+				[8] = -14,
+				[16] = -15,
+				[32] = 2,
+			},
+		},
+	},
+	["global"] = {
+		["LastVersionAnnounce"] = 1381070584,
+	},
+	["profiles"] = {
+		["Default"] = {
+			["DebuffsFrameContainer_y"] = 617.9553535050764,
+			["MainBarX"] = 682.6666831970215,
+			["MainBarY"] = -95.99999147388644,
+			["DebuffsFrameContainer_x"] = 70.39919875328451,
+		},
+	},
+}

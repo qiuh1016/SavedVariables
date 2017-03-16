@@ -1,0 +1,7 @@
+
+MapNoteInfo = {
+	["Deepholm"] = {
+	},
+	["Orgrimmar"] = {
+	},
+}

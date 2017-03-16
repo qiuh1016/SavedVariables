@@ -1,0 +1,432 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = -189.5,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+								["y"] = 610,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 3,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -510,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+							["padding"] = 6,
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+				["bf_infobox"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["padding"] = 6,
+							["position"] = {
+								["x"] = -256,
+								["point"] = "BOTTOM",
+								["y"] = 41.75,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5000305175781,
+								["point"] = "CENTER",
+								["y"] = -189.5,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -86,
+								["point"] = "RIGHT",
+								["y"] = 122,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -43,
+								["point"] = "RIGHT",
+								["y"] = 122,
+							},
+							["padding"] = 5,
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -232,
+								["point"] = "BOTTOM",
+								["y"] = 83,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = -232,
+								["point"] = "BOTTOM",
+								["y"] = 121,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.50006103515625,
+						["point"] = "BOTTOM",
+						["y"] = 223.0000152587891,
+					},
+				},
+				["bf_infobox"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -31.50006103515625,
+						["point"] = "BOTTOM",
+						["y"] = 223.0000305175781,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["scale"] = 1,
+						["y"] = 41.75,
+					},
+				},
+				["bf_infobox"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -208.8000636378929,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.39991012811515,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+			["profiles"] = {
+				["bf_infobox"] = {
+					["position"] = {
+						["point"] = "BOTTOM",
+						["scale"] = 0.49,
+						["y"] = 52,
+						["x"] = -252.85,
+					},
+				},
+			},
+		},
+		["UnitFrames"] = {
+			["profiles"] = {
+				["bf_infobox"] = {
+					["uiScale"] = 0.64,
+					["chatframes"] = {
+						["ChatFrame2"] = {
+							["height"] = 300,
+							["position"] = {
+								["y"] = 500,
+								["x"] = 20,
+								["point"] = "BOTTOMLEFT",
+							},
+							["width"] = 400,
+						},
+					},
+					["useUiScale"] = "1",
+					["unitframes"] = {
+						["PartyMemberFrame2"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -140,
+								["x"] = 80,
+								["point"] = "TOPLEFT",
+							},
+						},
+						["MinimapCluster"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -267.8888549804688,
+								["x"] = -176.66650390625,
+							},
+						},
+						["PartyMemberFrame4"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -290,
+								["x"] = 80,
+								["point"] = "TOPLEFT",
+							},
+						},
+						["BuffFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -39.4443359375,
+								["x"] = -238.332763671875,
+							},
+						},
+						["PlayerFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = 270,
+								["x"] = -165,
+								["point"] = "BOTTOM",
+							},
+						},
+						["TargetFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = 270,
+								["x"] = 155,
+								["point"] = "BOTTOM",
+							},
+						},
+						["PartyMemberFrame1"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -65,
+								["x"] = 80,
+								["point"] = "TOPLEFT",
+							},
+						},
+						["FocusFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = 400,
+								["x"] = 155,
+								["point"] = "BOTTOM",
+							},
+						},
+						["PartyMemberFrame3"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = -215,
+								["x"] = 80,
+								["point"] = "TOPLEFT",
+							},
+						},
+						["WatchFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = 152,
+								["x"] = -250,
+							},
+						},
+						["CastingBarFrame"] = {
+							["version"] = 3,
+							["position"] = {
+								["y"] = 188,
+								["x"] = 10,
+							},
+						},
+					},
+				},
+			},
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -512,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+				["bf_infobox"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
+					["position"] = {
+						["x"] = -256,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.50009155273438,
+						["point"] = "CENTER",
+						["y"] = 47.49996948242188,
+					},
+				},
+				["bf_infobox"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 98,
+						["point"] = "BOTTOM",
+						["y"] = 165,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["onebag"] = true,
+					["position"] = {
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
+					},
+				},
+				["bf_infobox"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+						["y"] = 1.5,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.5,
+						["point"] = "CENTER",
+						["y"] = -15.00001525878906,
+					},
+				},
+				["bf_infobox"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -82.50001525878906,
+						["point"] = "CENTER",
+						["y"] = -15.0000114440918,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["凛若 - 凯恩血蹄"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -460,
+						["point"] = "BOTTOM",
+						["y"] = 116,
+					},
+				},
+				["bf_infobox"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -227,
+						["point"] = "BOTTOM",
+						["y"] = 153,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profiles"] = {
+				["bf_infobox"] = {
+					["position"] = {
+						["point"] = "BOTTOM",
+						["scale"] = 0.44,
+						["y"] = 46,
+						["x"] = -227,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["凛若 - 凯恩血蹄"] = "bf_infobox",
+	},
+	["profiles"] = {
+		["凛若 - 凯恩血蹄"] = {
+			["blizzardVehicle"] = true,
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+		["bf_infobox"] = {
+			["focuscastmodifier"] = false,
+		},
+	},
+}

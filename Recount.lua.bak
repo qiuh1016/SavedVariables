@@ -1,0 +1,40 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["凛若 - 凯恩血蹄"] = "凛若 - 凯恩血蹄",
+	},
+	["profiles"] = {
+		["凛若 - 凯恩血蹄"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -230.6666879123024,
+					["x"] = 603.1113584297633,
+					["w"] = 220.8889364560132,
+					["h"] = 238.2222589385712,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["minimap"] = {
+				["minimapPos"] = 220,
+				["radius"] = 80,
+				["hide"] = false,
+			},
+			["MainWindowWidth"] = 220.8889364560132,
+			["MainWindowHeight"] = 238.2222589385712,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

@@ -1,0 +1,23 @@
+
+RAIDBUILDER_UI_DB = {
+	["global"] = {
+		["serverDatas"] = {
+			["AnnData"] = "^1^SAnnData^T^Stitle^S集合石插件问题反馈群^Scontent^S在使用集合石的过程中遇到任何问题，都可加入集合石反馈QQ群317548615，我们会有专人帮您解决。~`^t^^",
+			["RecommendData"] = "^1^SRecommendData^T^N1^S皇家宰相佐尔洛克#90#25#3,6,16,0^t^^",
+		},
+		["annData"] = {
+			{
+				["unread"] = true,
+				["title"] = "集合石插件问题反馈群",
+				["content"] = "在使用集合石的过程中遇到任何问题，都可加入集合石反馈QQ群317548615，我们会有专人帮您解决。 ",
+			}, -- [1]
+		},
+	},
+	["profileKeys"] = {
+		["凛若 - 凯恩血蹄"] = "凛若 - 凯恩血蹄",
+	},
+	["profiles"] = {
+		["凛若 - 凯恩血蹄"] = {
+		},
+	},
+}

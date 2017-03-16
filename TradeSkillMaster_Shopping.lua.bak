@@ -1,0 +1,742 @@
+
+TradeSkillMaster_ShoppingDB = {
+	["_currentProfile"] = {
+		["若凛 - 凯恩血蹄"] = "Default",
+		["若凌 - 凯恩血蹄"] = "Default",
+		["凛若 - 凯恩血蹄"] = "Default",
+		["若丶 - 凯恩血蹄"] = "Default",
+		["Aomiz - 凯恩血蹄"] = "Default",
+		["Aom - 凯恩血蹄"] = "Default",
+		["水牧丶 - 凯恩血蹄"] = "Default",
+		["水猎丶 - 凯恩血蹄"] = "Default",
+	},
+	["_version"] = 3,
+	["g@ @sniperVendorPrice"] = true,
+	["g@ @postBidPercent"] = 0.95,
+	["_scopeKeys"] = {
+		["char"] = {
+			"若凛 - 凯恩血蹄", -- [1]
+			"凛若 - 凯恩血蹄", -- [2]
+			"水牧丶 - 凯恩血蹄", -- [3]
+			"若凌 - 凯恩血蹄", -- [4]
+			"若丶 - 凯恩血蹄", -- [5]
+			"Aom - 凯恩血蹄", -- [6]
+			"Aomiz - 凯恩血蹄", -- [7]
+			"水猎丶 - 凯恩血蹄", -- [8]
+		},
+		["factionrealm"] = {
+			"Horde - 凯恩血蹄", -- [1]
+		},
+		["profile"] = {
+			"Default", -- [1]
+		},
+		["realm"] = {
+			"凯恩血蹄", -- [1]
+		},
+	},
+	["g@ @helpPlatesShown"] = {
+		["auction"] = true,
+	},
+	["g@ @postUndercut"] = "1c",
+	["g@ @minDeSearchLvl"] = 1,
+	["g@ @maxDeSearchLvl"] = 735,
+	["_hash"] = 1861581,
+	["g@ @marketValueSource"] = "dbmarket",
+	["g@ @savedSearches"] = {
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489654076,
+			["name"] = "精金矿石/exact",
+			["filter"] = "精金矿石/exact",
+		}, -- [1]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489654069,
+			["name"] = "魔铁矿石/exact",
+			["filter"] = "魔铁矿石/exact",
+		}, -- [2]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489653877,
+			["name"] = "精金",
+			["filter"] = "精金",
+		}, -- [3]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489653872,
+			["name"] = "精金轻剑/exact",
+			["filter"] = "精金轻剑/exact",
+		}, -- [4]
+		{
+			["lastSearch"] = 1489653853,
+			["name"] = "斗士大餐/exact",
+			["filter"] = "斗士大餐/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [5]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489653570,
+			["name"] = "狐尾花/exact",
+			["filter"] = "狐尾花/exact",
+		}, -- [6]
+		{
+			["lastSearch"] = 1489653525,
+			["name"] = "星光玫瑰/exact",
+			["filter"] = "星光玫瑰/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [7]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489653474,
+			["name"] = "反光棱柱/exact",
+			["filter"] = "反光棱柱/exact",
+		}, -- [8]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489653095,
+			["name"] = "萨特",
+			["filter"] = "萨特",
+		}, -- [9]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651934,
+			["name"] = "受训",
+			["filter"] = "受训",
+		}, -- [10]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651759,
+			["name"] = "附魔项链 - 受训士兵之印/exact",
+			["filter"] = "附魔项链 - 受训士兵之印/exact",
+		}, -- [11]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651758,
+			["name"] = "附魔项链 - 利爪之印/exact",
+			["filter"] = "附魔项链 - 利爪之印/exact",
+		}, -- [12]
+		{
+			["lastSearch"] = 1489651402,
+			["name"] = "入梦叶/exact",
+			["filter"] = "入梦叶/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [13]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651396,
+			["name"] = "夏斯卡格草/exact",
+			["filter"] = "夏斯卡格草/exact",
+		}, -- [14]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651381,
+			["name"] = "耳语契约合剂/exact",
+			["filter"] = "耳语契约合剂/exact",
+		}, -- [15]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651378,
+			["name"] = "第七恶魔合剂/exact",
+			["filter"] = "第七恶魔合剂/exact",
+		}, -- [16]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651372,
+			["name"] = "无尽大军合剂/exact",
+			["filter"] = "无尽大军合剂/exact",
+		}, -- [17]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489651368,
+			["name"] = "千万战痕合剂/exact",
+			["filter"] = "千万战痕合剂/exact",
+		}, -- [18]
+		{
+			["lastSearch"] = 1489651182,
+			["name"] = "抑魔金/exact",
+			["filter"] = "抑魔金/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [19]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489650982,
+			["name"] = "风铸轻剑/exact",
+			["filter"] = "风铸轻剑/exact",
+		}, -- [20]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489648247,
+			["name"] = "空气",
+			["filter"] = "空气",
+		}, -- [21]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489648242,
+			["name"] = "生空气",
+			["filter"] = "生空气",
+		}, -- [22]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489648224,
+			["name"] = "轻剑",
+			["filter"] = "轻剑",
+		}, -- [23]
+		{
+			["lastSearch"] = 1489644586,
+			["name"] = "致命先知之眼",
+			["filter"] = "致命先知之眼",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [24]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489644554,
+			["name"] = "利爪之",
+			["filter"] = "利爪之",
+		}, -- [25]
+		{
+			["lastSearch"] = 1489644516,
+			["name"] = "星光玫瑰粉尘",
+			["filter"] = "星光玫瑰粉尘",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [26]
+		{
+			["lastSearch"] = 1489644508,
+			["name"] = "宝石碎片/exact",
+			["filter"] = "宝石碎片/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [27]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489644192,
+			["name"] = "海盗",
+			["filter"] = "海盗",
+		}, -- [28]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489644174,
+			["name"] = "香辣野禽蛋/exact",
+			["filter"] = "香辣野禽蛋/exact",
+		}, -- [29]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489643268,
+			["name"] = "安瑟瑞尔花/exact",
+			["filter"] = "安瑟瑞尔花/exact",
+		}, -- [30]
+		{
+			["lastSearch"] = 1489643251,
+			["name"] = "伊瑟拉莱之种/exact",
+			["filter"] = "伊瑟拉莱之种/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [31]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489643227,
+			["name"] = "厚皮",
+			["filter"] = "厚皮",
+		}, -- [32]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642604,
+			["name"] = "诅咒女王鱼/exact",
+			["filter"] = "诅咒女王鱼/exact",
+		}, -- [33]
+		{
+			["lastSearch"] = 1489642411,
+			["name"] = "夏多雷丝绸/exact",
+			["filter"] = "夏多雷丝绸/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [34]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642340,
+			["name"] = "海盗的斗篷",
+			["filter"] = "海盗的斗篷",
+		}, -- [35]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642329,
+			["name"] = "歹徒手套",
+			["filter"] = "歹徒手套",
+		}, -- [36]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642316,
+			["name"] = "歹徒短裤",
+			["filter"] = "歹徒短裤",
+		}, -- [37]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642285,
+			["name"] = "先知腰带/exact",
+			["filter"] = "先知腰带/exact",
+		}, -- [38]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489642264,
+			["name"] = "吟游诗人短裤",
+			["filter"] = "吟游诗人短裤",
+		}, -- [39]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637320,
+			["name"] = "智力之缚",
+			["filter"] = "智力之缚",
+		}, -- [40]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637314,
+			["name"] = "力量之缚",
+			["filter"] = "力量之缚",
+		}, -- [41]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637308,
+			["name"] = "敏捷之缚",
+			["filter"] = "敏捷之缚",
+		}, -- [42]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637304,
+			["name"] = "精通之缚",
+			["filter"] = "精通之缚",
+		}, -- [43]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637299,
+			["name"] = "急速之缚",
+			["filter"] = "急速之缚",
+		}, -- [44]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637284,
+			["name"] = "爆击之缚",
+			["filter"] = "爆击之缚",
+		}, -- [45]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637213,
+			["name"] = "海盗腰带",
+			["filter"] = "海盗腰带",
+		}, -- [46]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637183,
+			["name"] = "山鼠草/exact",
+			["filter"] = "山鼠草/exact",
+		}, -- [47]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489637180,
+			["name"] = "隼龙蛋/exact",
+			["filter"] = "隼龙蛋/exact",
+		}, -- [48]
+		{
+			["lastSearch"] = 1489636421,
+			["name"] = "魔光碎片/exact",
+			["filter"] = "魔光碎片/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [49]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489633570,
+			["name"] = "培根片/exact",
+			["filter"] = "培根片/exact",
+		}, -- [50]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489633446,
+			["name"] = "玫红颜料/exact",
+			["filter"] = "玫红颜料/exact",
+		}, -- [51]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489633443,
+			["name"] = "蜡黄颜料/exact",
+			["filter"] = "蜡黄颜料/exact",
+		}, -- [52]
+		{
+			["lastSearch"] = 1489629669,
+			["name"] = "混沌水晶",
+			["filter"] = "混沌水晶",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [53]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489629450,
+			["name"] = "远古魔力宝石/exact",
+			["filter"] = "远古魔力宝石/exact",
+		}, -- [54]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489629425,
+			["name"] = "远古魔力",
+			["filter"] = "远古魔力",
+		}, -- [55]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489622750,
+			["name"] = "海盗长靴",
+			["filter"] = "海盗长靴",
+		}, -- [56]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489622744,
+			["name"] = "幻象之书",
+			["filter"] = "幻象之书",
+		}, -- [57]
+		{
+			["lastSearch"] = 1489622500,
+			["name"] = "夜之子小食拼盘/exact",
+			["filter"] = "夜之子小食拼盘/exact",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [58]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489586263,
+			["name"] = "星光玫瑰粉尘/exact",
+			["filter"] = "星光玫瑰粉尘/exact",
+		}, -- [59]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489586126,
+			["name"] = "海盗手套",
+			["filter"] = "海盗手套",
+		}, -- [60]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489575144,
+			["name"] = "水之精华",
+			["filter"] = "水之精华",
+		}, -- [61]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489573135,
+			["name"] = "妖纹包/exact",
+			["filter"] = "妖纹包/exact",
+		}, -- [62]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489562073,
+			["name"] = "爱情",
+			["filter"] = "爱情",
+		}, -- [63]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489550670,
+			["name"] = "附魔戒指 - 精通之缚/exact",
+			["filter"] = "附魔戒指 - 精通之缚/exact",
+		}, -- [64]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489550665,
+			["name"] = "迅捷爱情鸟/exact",
+			["filter"] = "迅捷爱情鸟/exact",
+		}, -- [65]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489550509,
+			["name"] = "幻象之书：外域/exact",
+			["filter"] = "幻象之书：外域/exact",
+		}, -- [66]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489502683,
+			["name"] = "肥美熊肉排/exact",
+			["filter"] = "肥美熊肉排/exact",
+		}, -- [67]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489502653,
+			["name"] = "精瘦腿肉/exact",
+			["filter"] = "精瘦腿肉/exact",
+		}, -- [68]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489502525,
+			["name"] = "附魔戒指 - 爆击之缚/exact",
+			["filter"] = "附魔戒指 - 爆击之缚/exact",
+		}, -- [69]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489488443,
+			["name"] = "利爪之印",
+			["filter"] = "利爪之印",
+		}, -- [70]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489488163,
+			["name"] = "隐形饮剂/exact",
+			["filter"] = "隐形饮剂/exact",
+		}, -- [71]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489488150,
+			["name"] = "大块异香肋排/exact",
+			["filter"] = "大块异香肋排/exact",
+		}, -- [72]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489482607,
+			["name"] = "魔力之血/exact",
+			["filter"] = "魔力之血/exact",
+		}, -- [73]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489482577,
+			["name"] = "“饥饿的魔导师”套餐/exact",
+			["filter"] = "“饥饿的魔导师”套餐/exact",
+		}, -- [74]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489480757,
+			["name"] = "至高岭鲑鱼/exact",
+			["filter"] = "至高岭鲑鱼/exact",
+		}, -- [75]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489480744,
+			["name"] = "艾萨莉色拉/exact",
+			["filter"] = "艾萨莉色拉/exact",
+		}, -- [76]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489480012,
+			["name"] = "飞天",
+			["filter"] = "飞天",
+		}, -- [77]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489480002,
+			["name"] = "活化钢",
+			["filter"] = "活化钢",
+		}, -- [78]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489477365,
+			["name"] = "哨兵",
+			["filter"] = "哨兵",
+		}, -- [79]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489458333,
+			["name"] = "克劳德的战损战靴",
+			["filter"] = "克劳德的战损战靴",
+		}, -- [80]
+		{
+			["lastSearch"] = 1489452317,
+			["name"] = "阿卡纳精华",
+			["filter"] = "阿卡纳精华",
+			["searchMode"] = "normal",
+			["isFavorite"] = true,
+		}, -- [81]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489406597,
+			["name"] = "邪能皮/exact",
+			["filter"] = "邪能皮/exact",
+		}, -- [82]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489395775,
+			["name"] = "灵魂药锅/exact",
+			["filter"] = "灵魂药锅/exact",
+		}, -- [83]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489395770,
+			["name"] = "魔力洪流药水/exact",
+			["filter"] = "魔力洪流药水/exact",
+		}, -- [84]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489395764,
+			["name"] = "上古战神药水/exact",
+			["filter"] = "上古战神药水/exact",
+		}, -- [85]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489395757,
+			["name"] = "延时之力药水/exact",
+			["filter"] = "延时之力药水/exact",
+		}, -- [86]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489388284,
+			["name"] = "宁神书卷/exact",
+			["filter"] = "宁神书卷/exact",
+		}, -- [87]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489388280,
+			["name"] = "球茎",
+			["filter"] = "球茎",
+		}, -- [88]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489388275,
+			["name"] = "爱情鸟",
+			["filter"] = "爱情鸟",
+		}, -- [89]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489381019,
+			["name"] = "光荣",
+			["filter"] = "光荣",
+		}, -- [90]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489372358,
+			["name"] = "古代治疗药水/exact",
+			["filter"] = "古代治疗药水/exact",
+		}, -- [91]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489371321,
+			["name"] = "附魔项链 - 隐匿萨特之印/exact",
+			["filter"] = "附魔项链 - 隐匿萨特之印/exact",
+		}, -- [92]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489366818,
+			["name"] = "水晶瓶/exact",
+			["filter"] = "水晶瓶/exact",
+		}, -- [93]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489332545,
+			["name"] = "邪能球茎/exact",
+			["filter"] = "邪能球茎/exact",
+		}, -- [94]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489332356,
+			["name"] = "远古魔力水晶/exact",
+			["filter"] = "远古魔力水晶/exact",
+		}, -- [95]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489285069,
+			["name"] = "安瑟瑞尔花",
+			["filter"] = "安瑟瑞尔花",
+		}, -- [96]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489284135,
+			["name"] = "凶暴兽栏雕文/exact",
+			["filter"] = "凶暴兽栏雕文/exact",
+		}, -- [97]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283769,
+			["name"] = "魔触之魂雕文/exact",
+			["filter"] = "魔触之魂雕文/exact",
+		}, -- [98]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283764,
+			["name"] = "邪能宿敌雕文/exact",
+			["filter"] = "邪能宿敌雕文/exact",
+		}, -- [99]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283759,
+			["name"] = "炽燃拯救者雕文/exact",
+			["filter"] = "炽燃拯救者雕文/exact",
+		}, -- [100]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283756,
+			["name"] = "落雷雕文/exact",
+			["filter"] = "落雷雕文/exact",
+		}, -- [101]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283751,
+			["name"] = "空灵领主雕文/exact",
+			["filter"] = "空灵领主雕文/exact",
+		}, -- [102]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283744,
+			["name"] = "审判官之眼雕文/exact",
+			["filter"] = "审判官之眼雕文/exact",
+		}, -- [103]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283735,
+			["name"] = "幽灵迅猛龙雕文/exact",
+			["filter"] = "幽灵迅猛龙雕文/exact",
+		}, -- [104]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283731,
+			["name"] = "闪光爆炸雕文/exact",
+			["filter"] = "闪光爆炸雕文/exact",
+		}, -- [105]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283725,
+			["name"] = "眩晕雕文/exact",
+			["filter"] = "眩晕雕文/exact",
+		}, -- [106]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283714,
+			["name"] = "幽灵渐隐雕文/exact",
+			["filter"] = "幽灵渐隐雕文/exact",
+		}, -- [107]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283707,
+			["name"] = "女王雕文/exact",
+			["filter"] = "女王雕文/exact",
+		}, -- [108]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283704,
+			["name"] = "玉珑的优雅雕文/exact",
+			["filter"] = "玉珑的优雅雕文/exact",
+		}, -- [109]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283701,
+			["name"] = "惊鸿掠电雕文/exact",
+			["filter"] = "惊鸿掠电雕文/exact",
+		}, -- [110]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283694,
+			["name"] = "火花雕文/exact",
+			["filter"] = "火花雕文/exact",
+		}, -- [111]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283689,
+			["name"] = "星光弹雕文/exact",
+			["filter"] = "星光弹雕文/exact",
+		}, -- [112]
+		{
+			["searchMode"] = "normal",
+			["lastSearch"] = 1489283685,
+			["name"] = "正中靶心雕文/exact",
+			["filter"] = "正中靶心雕文/exact",
+		}, -- [113]
+	},
+	["g@ @sniperSound"] = "TSM_NO_SOUND",
+	["g@ @normalPostPrice"] = "150% dbmarket",
+	["g@ @maxDeSearchPercent"] = 1,
+	["g@ @sniperCustomPrice"] = "0c",
+}

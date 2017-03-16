@@ -1,0 +1,10 @@
+
+HandyNotes_HallowsEndDB = {
+	["profileKeys"] = {
+		["若凛 - 凯恩血蹄"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+		},
+	},
+}
