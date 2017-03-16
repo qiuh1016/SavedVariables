@@ -13,14 +13,14 @@ TradeSkillMaster_WarehousingDB = {
 			"Aomiz - 凯恩血蹄", -- [7]
 			"水猎丶 - 凯恩血蹄", -- [8]
 		},
-		["realm"] = {
-			"凯恩血蹄", -- [1]
+		["factionrealm"] = {
+			"Horde - 凯恩血蹄", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["factionrealm"] = {
-			"Horde - 凯恩血蹄", -- [1]
+		["realm"] = {
+			"凯恩血蹄", -- [1]
 		},
 	},
 	["f@Horde - 凯恩血蹄@BagState"] = {

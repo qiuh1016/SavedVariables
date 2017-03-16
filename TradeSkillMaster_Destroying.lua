@@ -15,20 +15,29 @@ TradeSkillMaster_DestroyingDB = {
 			"Aomiz - 凯恩血蹄", -- [7]
 			"水猎丶 - 凯恩血蹄", -- [8]
 		},
-		["realm"] = {
-			"凯恩血蹄", -- [1]
+		["factionrealm"] = {
+			"Horde - 凯恩血蹄", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["factionrealm"] = {
-			"Horde - 凯恩血蹄", -- [1]
+		["realm"] = {
+			"凯恩血蹄", -- [1]
 		},
 	},
 	["g@ @autoShow"] = true,
 	["g@ @autoStack"] = true,
-	["g@ @logDays"] = 14,
-	["g@ @deAbovePrice"] = "0c",
+	["_currentProfile"] = {
+		["若凛 - 凯恩血蹄"] = "Default",
+		["若凌 - 凯恩血蹄"] = "Default",
+		["凛若 - 凯恩血蹄"] = "Default",
+		["若丶 - 凯恩血蹄"] = "Default",
+		["Aomiz - 凯恩血蹄"] = "Default",
+		["Aom - 凯恩血蹄"] = "Default",
+		["水牧丶 - 凯恩血蹄"] = "Default",
+		["水猎丶 - 凯恩血蹄"] = "Default",
+	},
+	["_version"] = 1,
 	["g@ @history"] = {
 		["研磨"] = {
 			{
@@ -99,8 +108,8 @@ TradeSkillMaster_DestroyingDB = {
 				["item"] = "i:124106",
 				["time"] = 1488357670,
 				["result"] = {
-					["i:129034"] = 9,
 					["i:129032"] = 3,
+					["i:129034"] = 9,
 					["i:128304"] = 1,
 				},
 			}, -- [9]
@@ -203,8 +212,8 @@ TradeSkillMaster_DestroyingDB = {
 				["item"] = "i:124102",
 				["time"] = 1489452649,
 				["result"] = {
-					["i:129034"] = 1,
 					["i:129032"] = 2,
+					["i:129034"] = 1,
 					["i:128304"] = 1,
 				},
 			}, -- [23]
@@ -963,8 +972,8 @@ TradeSkillMaster_DestroyingDB = {
 				["item"] = "i:124102",
 				["time"] = 1489561340,
 				["result"] = {
-					["i:129034"] = 1,
 					["i:129032"] = 3,
+					["i:129034"] = 1,
 					["i:128304"] = 2,
 				},
 			}, -- [127]
@@ -986,8 +995,8 @@ TradeSkillMaster_DestroyingDB = {
 				["item"] = "i:124102",
 				["time"] = 1489561403,
 				["result"] = {
-					["i:129034"] = 1,
 					["i:129032"] = 2,
+					["i:129034"] = 1,
 					["i:128304"] = 3,
 				},
 			}, -- [130]
@@ -1191,18 +1200,9 @@ TradeSkillMaster_DestroyingDB = {
 	["g@ @helpPlatesShown"] = {
 		["destroyingFrame"] = true,
 	},
-	["_hash"] = 14107345,
 	["g@ @includeSoulbound"] = false,
+	["_hash"] = 14107345,
 	["g@ @deMaxQuality"] = 3,
-	["_version"] = 1,
-	["_currentProfile"] = {
-		["若凛 - 凯恩血蹄"] = "Default",
-		["若凌 - 凯恩血蹄"] = "Default",
-		["凛若 - 凯恩血蹄"] = "Default",
-		["若丶 - 凯恩血蹄"] = "Default",
-		["Aomiz - 凯恩血蹄"] = "Default",
-		["Aom - 凯恩血蹄"] = "Default",
-		["水牧丶 - 凯恩血蹄"] = "Default",
-		["水猎丶 - 凯恩血蹄"] = "Default",
-	},
+	["g@ @deAbovePrice"] = "0c",
+	["g@ @logDays"] = 14,
 }

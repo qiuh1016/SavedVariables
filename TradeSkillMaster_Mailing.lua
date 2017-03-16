@@ -5,8 +5,8 @@ TradeSkillMaster_MailingDB = {
 	["c@Aom - 凯恩血蹄@goldKeepAmount"] = 1000000,
 	["g@ @helpPlatesShown"] = {
 		["other"] = true,
-		["inbox"] = true,
 		["groups"] = true,
+		["inbox"] = true,
 		["quickSend"] = true,
 	},
 	["_hash"] = 3711258,
@@ -31,14 +31,14 @@ TradeSkillMaster_MailingDB = {
 			"Aomiz - 凯恩血蹄", -- [7]
 			"水猎丶 - 凯恩血蹄", -- [8]
 		},
-		["realm"] = {
-			"凯恩血蹄", -- [1]
+		["factionrealm"] = {
+			"Horde - 凯恩血蹄", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["factionrealm"] = {
-			"Horde - 凯恩血蹄", -- [1]
+		["realm"] = {
+			"凯恩血蹄", -- [1]
 		},
 	},
 	["c@水猎丶 - 凯恩血蹄@goldMailTarget"] = "",
@@ -47,16 +47,14 @@ TradeSkillMaster_MailingDB = {
 	["g@ @defaultMailTab"] = true,
 	["g@ @autoCheck"] = true,
 	["g@ @resendDelay"] = 1,
-	["c@水猎丶 - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["c@凛若 - 凯恩血蹄@goldKeepAmount"] = 1000000,
 	["c@若凛 - 凯恩血蹄@goldKeepAmount"] = 1000000,
 	["c@若丶 - 凯恩血蹄@goldKeepAmount"] = 1000000,
 	["g@ @defaultPage"] = 1,
-	["c@若凌 - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["f@Horde - 凯恩血蹄@deMailTarget"] = "",
 	["g@ @openMailSound"] = "TSM_NO_SOUND",
-	["c@Aomiz - 凯恩血蹄@goldKeepAmount"] = 1000000,
 	["g@ @sendMessages"] = true,
-	["c@水牧丶 - 凯恩血蹄@goldKeepAmount"] = 1000000,
-	["g@ @sendItemsIndividually"] = false,
+	["g@ @keepMailSpace"] = 0,
 	["_currentProfile"] = {
 		["若凛 - 凯恩血蹄"] = "Default",
 		["若凌 - 凯恩血蹄"] = "Default",
@@ -67,7 +65,9 @@ TradeSkillMaster_MailingDB = {
 		["水牧丶 - 凯恩血蹄"] = "Default",
 		["水猎丶 - 凯恩血蹄"] = "Default",
 	},
-	["g@ @keepMailSpace"] = 0,
-	["f@Horde - 凯恩血蹄@deMailTarget"] = "",
-	["c@凛若 - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["g@ @sendItemsIndividually"] = false,
+	["c@水牧丶 - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["c@Aomiz - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["c@若凌 - 凯恩血蹄@goldKeepAmount"] = 1000000,
+	["c@水猎丶 - 凯恩血蹄@goldKeepAmount"] = 1000000,
 }
