@@ -165,11 +165,11 @@ EA_Items = {
 			["overgrow"] = 3,
 			["self"] = true,
 		},
-		[46924] = {
+		[184362] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184364] = {
+		[23920] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -182,23 +182,23 @@ EA_Items = {
 			["overgrow"] = 2,
 			["self"] = true,
 		},
-		[23920] = {
+		[184364] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[184362] = {
+		[46924] = {
 			["enable"] = true,
 			["self"] = true,
 		},
 	},
 	["SHAMAN"] = {
-		[73685] = {
+		[114050] = {
 			["enable"] = true,
 		},
 		[105763] = {
 			["enable"] = true,
 		},
-		[79206] = {
+		[114051] = {
 			["enable"] = true,
 		},
 		[201898] = {
@@ -216,16 +216,16 @@ EA_Items = {
 		[114893] = {
 			["enable"] = true,
 		},
-		[114050] = {
+		[73685] = {
 			["enable"] = true,
 		},
-		[114051] = {
+		[79206] = {
 			["enable"] = true,
 		},
-		[195222] = {
+		[118522] = {
 			["enable"] = true,
 		},
-		[215864] = {
+		[194084] = {
 			["enable"] = true,
 		},
 		[192106] = {
@@ -234,10 +234,10 @@ EA_Items = {
 		[16166] = {
 			["enable"] = true,
 		},
-		[194084] = {
+		[215864] = {
 			["enable"] = true,
 		},
-		[118522] = {
+		[195222] = {
 			["enable"] = true,
 		},
 	},
@@ -248,7 +248,7 @@ EA_Items = {
 		[44544] = {
 			["enable"] = true,
 		},
-		[87023] = {
+		[48108] = {
 			["enable"] = true,
 		},
 		[12051] = {
@@ -257,7 +257,7 @@ EA_Items = {
 		[79683] = {
 			["enable"] = true,
 		},
-		[48108] = {
+		[87023] = {
 			["enable"] = true,
 		},
 		[36032] = {
@@ -520,16 +520,16 @@ EA_Items = {
 		[1966] = {
 			["enable"] = true,
 		},
-		[59628] = {
+		[57934] = {
 			["enable"] = true,
 		},
-		[57934] = {
+		[5171] = {
 			["enable"] = true,
 		},
 		[58427] = {
 			["enable"] = true,
 		},
-		[5171] = {
+		[59628] = {
 			["enable"] = true,
 		},
 	},
@@ -580,7 +580,7 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[118038] = {
+		[132169] = {
 			["enable"] = true,
 			["self"] = false,
 		},
@@ -588,23 +588,23 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[772] = {
+		[208086] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[871] = {
+		[12323] = {
 			["enable"] = true,
-			["self"] = false,
+			["self"] = true,
 		},
 		[215537] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[132169] = {
+		[118038] = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[208086] = {
+		[113344] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -632,13 +632,13 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = false,
 		},
-		[113344] = {
+		[772] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[12323] = {
+		[871] = {
 			["enable"] = true,
-			["self"] = true,
+			["self"] = false,
 		},
 	},
 	["ROGUE"] = {
@@ -688,11 +688,11 @@ EA_TarItems = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[589] = {
+		[139] = {
 			["enable"] = true,
 			["self"] = true,
 		},
-		[139] = {
+		[6788] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -701,7 +701,7 @@ EA_TarItems = {
 			["overgrow"] = 3,
 			["self"] = true,
 		},
-		[6788] = {
+		[589] = {
 			["enable"] = true,
 			["self"] = true,
 		},
@@ -1054,7 +1054,7 @@ EA_ScdItems = {
 		[218256] = {
 			["enable"] = false,
 		},
-		[185245] = {
+		[195072] = {
 			["enable"] = false,
 		},
 		[201467] = {
@@ -1088,33 +1088,33 @@ EA_ScdItems = {
 		[178740] = {
 			["enable"] = false,
 		},
-		[195072] = {
+		[185245] = {
 			["enable"] = false,
 		},
 	},
 	["PALADIN"] = {
-		[96231] = {
-			["enable"] = true,
-		},
-		[853] = {
-			["enable"] = true,
-		},
-		[28730] = {
-			["enable"] = true,
-		},
 		[498] = {
 			["enable"] = true,
 		},
 		[115750] = {
 			["enable"] = true,
 		},
-		[114165] = {
+		[28730] = {
+			["enable"] = true,
+		},
+		[96231] = {
 			["enable"] = true,
 		},
 		[20066] = {
 			["enable"] = true,
 		},
 		[114158] = {
+			["enable"] = true,
+		},
+		[853] = {
+			["enable"] = true,
+		},
+		[114165] = {
 			["enable"] = true,
 		},
 	},
@@ -1392,8 +1392,8 @@ EA_GrpItems = {
 									["SubCheckAndOp"] = true,
 									["StackLessThanValue"] = 9,
 									["StackCompType"] = 4,
-									["CheckAuraExist"] = 324,
 									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 324,
 								}, -- [2]
 							},
 							["CheckResult"] = false,
@@ -1418,8 +1418,8 @@ EA_GrpItems = {
 									["SubCheckAndOp"] = true,
 									["StackLessThanValue"] = 7,
 									["StackCompType"] = 4,
-									["CheckAuraExist"] = 324,
 									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 324,
 								}, -- [2]
 							},
 							["CheckResult"] = false,
@@ -1639,8 +1639,8 @@ EA_GrpItems = {
 									["SubCheckResult"] = false,
 									["UnitType"] = "player",
 									["SubCheckAndOp"] = true,
-									["CheckAuraExist"] = 59578,
 									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 59578,
 									["CheckCD"] = 879,
 								}, -- [1]
 							},
@@ -1670,8 +1670,8 @@ EA_GrpItems = {
 									["SubCheckResult"] = false,
 									["UnitType"] = "player",
 									["SubCheckAndOp"] = false,
-									["CheckAuraExist"] = 90174,
 									["EventType"] = "UNIT_AURA",
+									["CheckAuraExist"] = 90174,
 									["CheckCD"] = 85256,
 								}, -- [2]
 							},
@@ -1749,8 +1749,8 @@ EA_GrpItems = {
 			["LocX"] = 0,
 			["ActiveTalentGroup"] = 1,
 			["IconPoint"] = "Top",
-			["HideOnLostTarget"] = true,
 			["IconSize"] = 80,
+			["HideOnLostTarget"] = true,
 			["LocY"] = -200,
 			["GroupIndex"] = 2,
 			["IconRelatePoint"] = "Top",
@@ -1879,8 +1879,8 @@ EA_GrpItems = {
 									["TimeCompType"] = 2,
 									["UnitType"] = "player",
 									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
 									["CheckAuraExist"] = 95799,
+									["EventType"] = "UNIT_AURA",
 									["SubCheckResult"] = false,
 								}, -- [1]
 								{
@@ -1896,8 +1896,8 @@ EA_GrpItems = {
 									["SubCheckAndOp"] = false,
 									["StackLessThanValue"] = 3,
 									["StackCompType"] = 4,
-									["EventType"] = "UNIT_AURA",
 									["CheckAuraExist"] = 77487,
+									["EventType"] = "UNIT_AURA",
 								}, -- [3]
 							},
 							["CheckResult"] = false,
@@ -1918,9 +1918,9 @@ EA_GrpItems = {
 									["TimeCompType"] = 2,
 									["UnitType"] = "target",
 									["SubCheckAndOp"] = true,
-									["EventType"] = "UNIT_AURA",
-									["CastByPlayer"] = true,
 									["CheckAuraExist"] = 34914,
+									["CastByPlayer"] = true,
+									["EventType"] = "UNIT_AURA",
 									["SubCheckResult"] = false,
 								}, -- [1]
 								{

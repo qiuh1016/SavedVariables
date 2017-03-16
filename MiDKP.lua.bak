@@ -53,10 +53,10 @@ MiDKP3B_Options = {
 		-350, -- [4]
 		120, -- [5]
 	},
+	["whisper_enable"] = true,
 	["minibtn_pos"] = {
 		-116.222175598145, -- [1]
 		-142.444412231445, -- [2]
 	},
-	["whisper_enable"] = true,
 	["use_history"] = false,
 }

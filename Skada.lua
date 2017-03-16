@@ -88,8 +88,8 @@ SkadaDB = {
 						["g"] = 0.3,
 						["r"] = 0.3,
 					},
-					["barfontsize"] = 13,
 					["returnaftercombat"] = false,
+					["barfontsize"] = 13,
 					["height"] = 30,
 					["title"] = {
 						["textcolor"] = {
@@ -125,11 +125,7 @@ SkadaDB = {
 					["version"] = 1,
 					["enabletitle"] = true,
 					["modeincombat"] = "",
-					["textcolor"] = {
-						["b"] = 0.9,
-						["g"] = 0.9,
-						["r"] = 0.9,
-					},
+					["fixedbarwidth"] = false,
 					["bartexture"] = "BantoBar",
 					["buttons"] = {
 						["segment"] = true,
@@ -142,7 +138,11 @@ SkadaDB = {
 					["barspacing"] = 0,
 					["reversegrowth"] = false,
 					["width"] = 600,
-					["fixedbarwidth"] = false,
+					["textcolor"] = {
+						["b"] = 0.9,
+						["g"] = 0.9,
+						["r"] = 0.9,
+					},
 					["scale"] = 1,
 					["background"] = {
 						["color"] = {

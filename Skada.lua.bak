@@ -89,7 +89,7 @@ SkadaDB = {
 						["b"] = 0.8,
 					},
 					["x"] = -110.181884765625,
-					["returnaftercombat"] = false,
+					["barfontsize"] = 13,
 					["showself"] = true,
 					["title"] = {
 						["textcolor"] = {
@@ -143,12 +143,12 @@ SkadaDB = {
 						["texture"] = "Solid",
 					},
 					["scale"] = 1,
+					["fixedbarwidth"] = false,
 					["textcolor"] = {
 						["r"] = 0.9,
 						["g"] = 0.9,
 						["b"] = 0.9,
 					},
-					["fixedbarwidth"] = false,
 					["buttons"] = {
 						["segment"] = true,
 						["menu"] = true,
@@ -167,7 +167,7 @@ SkadaDB = {
 					["classcolorbars"] = true,
 					["isusingclasscolors"] = true,
 					["height"] = 30,
-					["barfontsize"] = 13,
+					["returnaftercombat"] = false,
 					["isonnewline"] = false,
 				}, -- [2]
 			},

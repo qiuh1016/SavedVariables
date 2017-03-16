@@ -70,13 +70,13 @@ BigFoot_Config = {
 	},
 	["ActionButton"] = {
 		["ShowCenter"] = 0,
-		["EnableCooldownCount2"] = 1,
 		["checkedVersion"] = "603",
+		["ShowRune"] = 0,
 		["ShowTotem"] = 0,
 		["ShineType"] = "雷达",
 		["EnableCoolLine"] = 0,
 		["ToggleBar"] = 0,
-		["ShowRune"] = 0,
+		["EnableCooldownCount2"] = 1,
 	},
 	["chatframes"] = {
 		["ChatFrame1"] = {
@@ -105,9 +105,9 @@ BigFoot_Config = {
 	},
 	["BagManagement"] = {
 		["EnabelOpenAllBagsOnBank"] = 1,
-		["EnabelOpenAllBagsOnTrading"] = 1,
 		["checkedVersion"] = "609",
 		["EnabelOpenAllBagsOnMerchant"] = 1,
+		["EnabelOpenAllBagsOnTrading"] = 1,
 	},
 	["BagIntegration"] = {
 		["ReverseMode"] = 1,
@@ -200,8 +200,8 @@ BigFoot_Config = {
 		["EnableBlizzMove"] = 1,
 		["checkedVersion"] = "614",
 		["EnableMasque"] = 0,
-		["EnableInfoBoxV2"] = 0,
 		["Masque_BuffDisable"] = 1,
+		["EnableInfoBoxV2"] = 0,
 	},
 	["BFMount"] = {
 		["EnableMountEnhance"] = 1,
@@ -249,14 +249,14 @@ BigFoot_Config = {
 		["BigFootTooltipActor"] = "隐藏",
 		["BigFootTooltipPositionY"] = -25,
 		["BigFootTooltipItemLevel"] = "显示",
-		["EnableNewTypeBFTooltip"] = 0,
-		["EnableBFTooltip"] = 1,
 		["checkedVersion"] = "614",
+		["BigFootTooltipGuildRank"] = "隐藏",
+		["EnableNewTypeBFTooltip"] = 0,
 		["BigFootTooltipToT"] = "显示",
 		["BigFootTooltipPosition"] = "鼠标",
 		["BigFootTooltipTalent"] = "显示",
 		["BigFootTooltipPositionX"] = -20,
-		["BigFootTooltipGuildRank"] = "隐藏",
+		["EnableBFTooltip"] = 1,
 	},
 	["CombatIndicator"] = {
 		["EnableCombatLeave"] = 1,
@@ -282,21 +282,21 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "CreateFrame: Can't create protected 'CheckButton' now",
 			["race"] = "血精灵",
-			["level"] = 83,
 			["trace"] = "[C]: in function `CreateFrame'\nInterface\\AddOns\\BFClassMods\\Aspects.lua:983: in function <Interface\\AddOns\\BFClassMods\\Aspects.lua:976>\nInterface\\AddOns\\BFClassMods\\Aspects.lua:1117: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:147>\n[string \"safecall Dispatcher[10]\"]:4: in function <[string \"safecall Dispatcher[10]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[10]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:92: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-			["line"] = "983",
 			["file"] = "Interface\\AddOns\\BFClassMods\\Aspects.lua",
+			["line"] = "983",
+			["level"] = 83,
 		},
 	},
 	["zhCN5.4.0.431"] = {
 		["2881736256181300661021191978955268140"] = {
 			["line"] = "1",
 			["race"] = "血精灵",
-			["class"] = "法师",
-			["zone"] = "决战奥格瑞玛",
 			["level"] = 90,
-			["trace"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterList_Update'\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterOptionFrame_OnShow'\n[string \"*:OnShow\"]:1: in function <[string \"*:OnShow\"]:1>\n[C]: in function `Show'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `BFMManage_a4f54dcbb0efcead0035ed62a5eebdc6'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `ModButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
+			["zone"] = "决战奥格瑞玛",
+			["class"] = "法师",
 			["file"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua",
+			["trace"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterList_Update'\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterOptionFrame_OnShow'\n[string \"*:OnShow\"]:1: in function <[string \"*:OnShow\"]:1>\n[C]: in function `Show'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `BFMManage_a4f54dcbb0efcead0035ed62a5eebdc6'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `ModButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
 			["desc"] = "Attempt to get length of field 'OrderWords' (a nil value)",
 		},
 		["2206963634144574717336807373713320857316"] = {
@@ -305,10 +305,10 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "Attempt to concatenate local '__realmName' (a nil value)",
 			["race"] = "血精灵",
-			["level"] = 90,
 			["trace"] = "Interface\\AddOns\\BFTooltip\\BFTooltip.lua:369: in function <Interface\\AddOns\\BFTooltip\\BFTooltip.lua:333>\n...terface\\AddOns\\BigFoot\\Library\\BigFootSecureHook.lua:1: in function <...terface\\AddOns\\BigFoot\\Library\\BigFootSecureHook.lua:1>\n[C]: in function `SetUnit'\nInterface\\AddOns\\BFTooltip\\BFTooltip.lua:733: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n",
-			["line"] = "369",
 			["file"] = "Interface\\AddOns\\BFTooltip\\BFTooltip.lua",
+			["line"] = "369",
+			["level"] = 90,
 		},
 		["916295596267897531236956928991586329626"] = {
 			["combat"] = 1,
@@ -317,9 +317,9 @@ BigFoot_Error = {
 			["desc"] = "CreateFrame: Can't create protected 'Button' now",
 			["race"] = "血精灵",
 			["line"] = "345",
-			["file"] = "...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua",
 			["level"] = 86,
 			["trace"] = "[C]: in function `CreateFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:345: in function `CompactRaidFrameContainer_GetUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:254: in function `CompactRaidFrameContainer_AddPlayers'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:176: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:95: in function `CompactRaidFrameContainer_SetFlowSortFunction'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:407: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:402>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:491: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:572: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:549: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:176: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:172: in function `CompactUnitFrameProfiles_ActivateRaidProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:45: in function `CompactUnitFrameProfiles_ValidateProfilesLoaded'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:25: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:18>\n",
+			["file"] = "...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua",
 			["srcError"] = "BattlePetInfo",
 		},
 		["203198807816527486136128140781918270528"] = {
@@ -329,9 +329,9 @@ BigFoot_Error = {
 			["desc"] = "Attempt to index upvalue 'malkorok_ai_mainframe' (a nil value)",
 			["race"] = "血精灵",
 			["line"] = "603",
-			["file"] = "...rface\\AddOns\\DBM-SiegeOfOrgrimmar\\Malkorokhelper.lua",
 			["level"] = 90,
 			["trace"] = "...rface\\AddOns\\DBM-SiegeOfOrgrimmar\\Malkorokhelper.lua:603: in function <...rface\\AddOns\\DBM-SiegeOfOrgrimmar\\Malkorokhelper.lua:573>\n",
+			["file"] = "...rface\\AddOns\\DBM-SiegeOfOrgrimmar\\Malkorokhelper.lua",
 			["srcError"] = "BigFootBar",
 		},
 	},
@@ -343,9 +343,27 @@ BigFoot_Error = {
 			["race"] = "血精灵",
 			["time"] = 1485150302,
 			["version"] = "zhCN7.1.0.609",
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `PlaceRaidMarker'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:230: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:787: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-			["forbiddenfunc"] = "PlaceRaidMarker()",
 			["level"] = 110,
+			["forbiddenfunc"] = "PlaceRaidMarker()",
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `PlaceRaidMarker'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:230: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:787: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
+		},
+		["ChannelFilter"] = {
+			["race"] = "血精灵",
+			["version"] = "zhCN5.4.0.431",
+			["zone"] = "永恒岛",
+			["class"] = "法师",
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `IsDisabledByParentalControls'\nInterface\\FrameXML\\MainMenuBarMicroButtons.lua:229: in function `UpdateMicroButtons'\nInterface\\FrameXML\\FriendsFrame.lua:258: in function `FriendsFrame_OnShow'\n[string \"*:OnClick\"]:2: in function <[string \"*:OnClick\"]:1>\n",
+			["level"] = 90,
+			["forbiddenfunc"] = "IsDisabledByParentalControls()",
+		},
+		["BlizzMove"] = {
+			["race"] = "血精灵",
+			["version"] = "zhCN5.4.0.431",
+			["zone"] = "影踪禅院",
+			["class"] = "潜行者",
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `IsDisabledByParentalControls'\nInterface\\FrameXML\\MainMenuBarMicroButtons.lua:229: in function `UpdateMicroButtons'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:422: in function <...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:416>\n[C]: ?\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1819: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1663: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1545: in function <Interface\\FrameXML\\UIParent.lua:1541>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2262: in function `ShowUIPanel'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:226: in function `PlayerTalentFrame_Toggle'\nInterface\\FrameXML\\UIParent.lua:495: in function `ToggleTalentFrame'\n[string \"TOGGLETALENTS\"]:1: in function <[string \"TOGGLETALENTS\"]:1>\n",
+			["level"] = 87,
+			["forbiddenfunc"] = "IsDisabledByParentalControls()",
 		},
 		["ItemInfo"] = {
 			["combat"] = false,
@@ -353,19 +371,21 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["race"] = "血精灵",
 			["time"] = 1487077806,
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `FocusUnit'\nInterface\\FrameXML\\UnitPopup.lua:1836: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:787: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
 			["level"] = 110,
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `FocusUnit'\nInterface\\FrameXML\\UnitPopup.lua:1836: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:787: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
 			["forbiddenfunc"] = "FocusUnit()",
 			["version"] = "zhCN7.1.0.610",
 		},
-		["BlizzMove"] = {
+		["Combuctor"] = {
+			["combat"] = false,
+			["zone"] = "达拉然",
+			["class"] = "牧师",
 			["race"] = "血精灵",
-			["version"] = "zhCN5.4.0.431",
-			["zone"] = "影踪禅院",
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `IsDisabledByParentalControls'\nInterface\\FrameXML\\MainMenuBarMicroButtons.lua:229: in function `UpdateMicroButtons'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:422: in function <...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:416>\n[C]: ?\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:1819: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:1663: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:1545: in function <Interface\\FrameXML\\UIParent.lua:1541>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2262: in function `ShowUIPanel'\n...rface\\AddOns\\Blizzard_TalentUI\\Blizzard_TalentUI.lua:226: in function `PlayerTalentFrame_Toggle'\nInterface\\FrameXML\\UIParent.lua:495: in function `ToggleTalentFrame'\n[string \"TOGGLETALENTS\"]:1: in function <[string \"TOGGLETALENTS\"]:1>\n",
-			["class"] = "潜行者",
-			["level"] = 87,
-			["forbiddenfunc"] = "IsDisabledByParentalControls()",
+			["time"] = 1487246600,
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `RunBinding'\nInterface\\FrameXML\\StackSplitFrame.lua:181: in function <Interface\\FrameXML\\StackSplitFrame.lua:178>\n[C]: in function `Hide'\nInterface\\FrameXML\\StackSplitFrame.lua:167: in function `StackSplitFrameOkay_Click'\nInterface\\FrameXML\\StackSplitFrame.lua:112: in function <Interface\\FrameXML\\StackSplitFrame.lua:90>\n",
+			["level"] = 103,
+			["forbiddenfunc"] = "RunBinding()",
+			["version"] = "zhCN7.1.0.613",
 		},
 		["WorldQuestTracker"] = {
 			["combat"] = false,
@@ -374,60 +394,40 @@ BigFoot_Error = {
 			["race"] = "血精灵",
 			["time"] = 1482844164,
 			["version"] = "zhCN7.1.0.606",
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `UseQuestLogSpecialItem'\n...ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua:95: in function <...ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua:88>\n",
-			["forbiddenfunc"] = "UseQuestLogSpecialItem()",
 			["level"] = 110,
-		},
-		["Combuctor"] = {
-			["combat"] = false,
-			["zone"] = "达拉然",
-			["class"] = "牧师",
-			["race"] = "血精灵",
-			["time"] = 1487246600,
-			["level"] = 103,
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `RunBinding'\nInterface\\FrameXML\\StackSplitFrame.lua:181: in function <Interface\\FrameXML\\StackSplitFrame.lua:178>\n[C]: in function `Hide'\nInterface\\FrameXML\\StackSplitFrame.lua:167: in function `StackSplitFrameOkay_Click'\nInterface\\FrameXML\\StackSplitFrame.lua:112: in function <Interface\\FrameXML\\StackSplitFrame.lua:90>\n",
-			["forbiddenfunc"] = "RunBinding()",
-			["version"] = "zhCN7.1.0.613",
-		},
-		["ChannelFilter"] = {
-			["race"] = "血精灵",
-			["version"] = "zhCN5.4.0.431",
-			["zone"] = "永恒岛",
-			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `IsDisabledByParentalControls'\nInterface\\FrameXML\\MainMenuBarMicroButtons.lua:229: in function `UpdateMicroButtons'\nInterface\\FrameXML\\FriendsFrame.lua:258: in function `FriendsFrame_OnShow'\n[string \"*:OnClick\"]:2: in function <[string \"*:OnClick\"]:1>\n",
-			["class"] = "法师",
-			["level"] = 90,
-			["forbiddenfunc"] = "IsDisabledByParentalControls()",
+			["forbiddenfunc"] = "UseQuestLogSpecialItem()",
+			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `UseQuestLogSpecialItem'\n...ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua:95: in function <...ObjectiveTracker\\Blizzard_ObjectiveTrackerShared.lua:88>\n",
 		},
 		["Mapster"] = {
-			["zone"] = "决战奥格瑞玛",
-			["race"] = "血精灵",
-			["combat"] = 1,
 			["forbiddenfunc"] = "ClearFocus()",
-			["class"] = "法师",
+			["race"] = "血精灵",
+			["version"] = "zhCN5.4.0.430",
+			["zone"] = "决战奥格瑞玛",
 			["trace"] = "Interface\\AddOns\\BigFoot\\BigFootError.lua:1: in function `BigFootErrorFrame_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n[C]: in function `ClearFocus'\nInterface\\FrameXML\\UnitPopup.lua:1694: in function `func'\nInterface\\FrameXML\\UIDropDownMenu.lua:710: in function `UIDropDownMenuButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
 			["level"] = 90,
-			["version"] = "zhCN5.4.0.430",
+			["class"] = "法师",
+			["combat"] = 1,
 		},
 	},
 	["zhCN5.4.0.430"] = {
 		["67899164235475417295339529334073585273"] = {
 			["line"] = "432",
 			["race"] = "血精灵",
-			["class"] = "武僧",
-			["zone"] = "",
 			["level"] = 1,
-			["trace"] = "Interface\\AddOns\\MailMod\\MailMod.lua:432: in function `MailModList_Init'\nInterface\\AddOns\\MailMod\\MailMod.lua:597: in function `func'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n[C]: in function `LoadAddOn'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_LoadAddOn'\nInterface\\AddOns\\BigFoot\\Config\\BigFootGadget.lua:210: in function <Interface\\AddOns\\BigFoot\\Config\\BigFootGadget.lua:207>\n[C]: in function `pcall'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_693c84ed6b785fb86d40e671d28c8afa'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_3d5cb72c22f8737d5d716905794979cb'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_5cce98c7af8139064e065c4da9901881'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_a11c665559fd4fce273df28ca6f92415'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
+			["zone"] = "",
+			["class"] = "武僧",
 			["file"] = "Interface\\AddOns\\MailMod\\MailMod.lua",
+			["trace"] = "Interface\\AddOns\\MailMod\\MailMod.lua:432: in function `MailModList_Init'\nInterface\\AddOns\\MailMod\\MailMod.lua:597: in function `func'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n[C]: in function `LoadAddOn'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_LoadAddOn'\nInterface\\AddOns\\BigFoot\\Config\\BigFootGadget.lua:210: in function <Interface\\AddOns\\BigFoot\\Config\\BigFootGadget.lua:207>\n[C]: in function `pcall'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_693c84ed6b785fb86d40e671d28c8afa'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_3d5cb72c22f8737d5d716905794979cb'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_5cce98c7af8139064e065c4da9901881'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_a11c665559fd4fce273df28ca6f92415'\nInterface\\AddOns\\BigFoot\\BigFoot.lua:1: in function `BigFoot_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
 			["desc"] = "Table index is nil",
 		},
 		["143638625910460657059558701392937431145"] = {
 			["line"] = "7",
 			["race"] = "血精灵",
-			["level"] = 90,
-			["zone"] = "决战奥格瑞玛",
 			["class"] = "法师",
-			["file"] = "Interface\\AddOns\\MerInspect\\PVP.lua",
+			["zone"] = "决战奥格瑞玛",
+			["level"] = 90,
 			["trace"] = "Interface\\AddOns\\MerInspect\\PVP.lua:7: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n",
+			["file"] = "Interface\\AddOns\\MerInspect\\PVP.lua",
 			["desc"] = "Attempt to call global 'GetInspectArenaTeamData' (a nil value)",
 		},
 	},
@@ -438,10 +438,10 @@ BigFoot_Error = {
 			["class"] = "潜行者",
 			["desc"] = "Attempt to perform arithmetic on local 'samount' (a boolean value)",
 			["race"] = "血精灵",
-			["trace"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDeaths\\Deaths.lua:149: in function `func'\nInterface\\AddOns\\Skada\\Skada.lua:1689: in function <Interface\\AddOns\\Skada\\Skada.lua:1603>\n",
 			["file"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDeaths\\Deaths.lua",
-			["line"] = "149",
 			["level"] = 90,
+			["line"] = "149",
+			["trace"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDeaths\\Deaths.lua:149: in function `func'\nInterface\\AddOns\\Skada\\Skada.lua:1689: in function <Interface\\AddOns\\Skada\\Skada.lua:1603>\n",
 		},
 	},
 	["debug_Mod"] = false,
@@ -452,10 +452,10 @@ BigFoot_Error = {
 			["class"] = "法师",
 			["desc"] = "Invalid stat index in UnitStat",
 			["race"] = "血精灵",
-			["level"] = 100,
 			["trace"] = "[C]: in function `UnitStat'\nInterface\\AddOns\\BigFootChat\\statReport.lua:1: in function <Interface\\AddOns\\BigFootChat\\statReport.lua:1>\nInterface\\AddOns\\BigFootChat\\statReport.lua:1: in function `BFCIconFrameReportButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-			["line"] = "1",
 			["file"] = "Interface\\AddOns\\BigFootChat\\statReport.lua",
+			["line"] = "1",
+			["level"] = 100,
 		},
 		["3238142123567000369717830967499851147"] = {
 			["combat"] = false,
@@ -463,10 +463,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index a nil value",
 			["race"] = "血精灵",
-			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
 			["level"] = 103,
-			["line"] = "1194",
 			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:45: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:83: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\events.lua:163: in function `UpdateBagSize'\nInterface\\AddOns\\Combuctor\\events.lua:194: in function `UpdateBagSizesAndTypes'\nInterface\\AddOns\\Combuctor\\events.lua:221: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
+			["line"] = "1194",
+			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
 		},
 	},
 	["zhCN7.1.0.609"] = {
@@ -476,10 +476,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to call method 'GetLink' (a nil value)",
 			["race"] = "血精灵",
-			["file"] = "Interface\\AddOns\\Collector\\Logic\\Logic.lua",
 			["level"] = 110,
-			["line"] = "42",
 			["trace"] = "(tail call): ?\nInterface\\AddOns\\Collector\\Logic\\Logic.lua:42: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `FireBroad'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:83: in function `DealPacket'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:66: in function <...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:41>\n",
+			["line"] = "42",
+			["file"] = "Interface\\AddOns\\Collector\\Logic\\Logic.lua",
 		},
 	},
 	["zhCN7.1.0.606"] = {
@@ -489,10 +489,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index a nil value",
 			["race"] = "血精灵",
-			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:45: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:83: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\events.lua:163: in function `UpdateBagSize'\nInterface\\AddOns\\Combuctor\\events.lua:194: in function `UpdateBagSizesAndTypes'\nInterface\\AddOns\\Combuctor\\events.lua:221: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
-			["line"] = "1194",
 			["level"] = 110,
+			["line"] = "1194",
+			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:45: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:83: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\events.lua:163: in function `UpdateBagSize'\nInterface\\AddOns\\Combuctor\\events.lua:194: in function `UpdateBagSizesAndTypes'\nInterface\\AddOns\\Combuctor\\events.lua:221: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 		},
 		["241109419050448006023312915462581880265"] = {
 			["combat"] = true,
@@ -501,9 +501,9 @@ BigFoot_Error = {
 			["desc"] = "'then' expected near '<eof>'",
 			["race"] = "血精灵",
 			["line"] = "1",
-			["file"] = "[string \"local f=RbA or CreateFrame(\"Frame\",\"RbA\") f:SetScript(\"OnEvent\"...\"]",
 			["level"] = 110,
 			["trace"] = "[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2062: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4385: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4053: in function <Interface\\FrameXML\\ChatFrame.lua:4052>\n[C]: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2660: in function <Interface\\FrameXML\\ChatFrame.lua:2653>\n[C]: ?\n[C]: in function `UseAction'\nInterface\\FrameXML\\SecureTemplates.lua:346: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:619: in function `SecureActionButton_OnClick'\nInterface\\FrameXML\\MultiActionBars.lua:14: in function `MultiActionButtonDown'\n[string \"MULTIACTIONBAR1BUTTON1\"]:2: in function <[string \"MULTIACTIONBAR1BUTTON1\"]:1>\n",
+			["file"] = "[string \"local f=RbA or CreateFrame(\"Frame\",\"RbA\") f:SetScript(\"OnEvent\"...\"]",
 			["srcError"] = "BigFootBar",
 		},
 	},
@@ -515,29 +515,29 @@ BigFoot_Error = {
 			["desc"] = "CreateFrame: Can't create protected 'Frame' now",
 			["race"] = "血精灵",
 			["srcError"] = "BattlePetInfo",
-			["file"] = "Interface\\FrameXML\\CompactRaidGroup.lua",
 			["level"] = 90,
 			["trace"] = "[C]: in function `CreateFrame'\nInterface\\FrameXML\\CompactRaidGroup.lua:29: in function `CompactRaidGroup_GenerateForGroup'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:226: in function `CompactRaidFrameContainer_AddGroup'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:211: in function `CompactRaidFrameContainer_AddGroups'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:174: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:62: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
+			["file"] = "Interface\\FrameXML\\CompactRaidGroup.lua",
 			["line"] = "29",
 		},
 		["2881736256181300661021191978955268140"] = {
 			["race"] = "血精灵",
 			["line"] = "1",
-			["trace"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterList_Update'\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterOptionFrame_OnShow'\n[string \"*:OnShow\"]:1: in function <[string \"*:OnShow\"]:1>\n[C]: in function `Show'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `BFMManage_a4f54dcbb0efcead0035ed62a5eebdc6'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `ModButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
-			["zone"] = "风暴峭壁",
 			["file"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua",
-			["level"] = 90,
+			["zone"] = "风暴峭壁",
+			["trace"] = "Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterList_Update'\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function <Interface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1>\nInterface\\AddOns\\ChannelFilter\\ChannelFilter.lua:1: in function `ChannelFilterOptionFrame_OnShow'\n[string \"*:OnShow\"]:1: in function <[string \"*:OnShow\"]:1>\n[C]: in function `Show'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `BFMManage_a4f54dcbb0efcead0035ed62a5eebdc6'\nInterface\\AddOns\\BigFoot\\UI\\ModManagement.lua:1: in function `ModButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
 			["class"] = "法师",
+			["level"] = 90,
 			["desc"] = "Attempt to get length of field 'OrderWords' (a nil value)",
 		},
 		["47420053577331533715680299743341223758"] = {
 			["line"] = "380",
 			["race"] = "血精灵",
-			["level"] = 90,
-			["zone"] = "决战奥格瑞玛",
 			["class"] = "法师",
-			["file"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDamage\\Damage.lua",
+			["zone"] = "决战奥格瑞玛",
+			["level"] = 90,
 			["trace"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDamage\\Damage.lua:380: in function `Enter'\nInterface\\AddOns\\Skada\\Skada.lua:1993: in function `AddSubviewToTooltip'\nInterface\\AddOns\\Skada\\BarDisplay.lua:147: in function <Interface\\AddOns\\Skada\\BarDisplay.lua:124>\nInterface\\AddOns\\Skada\\BarDisplay.lua:290: in function <Interface\\AddOns\\Skada\\BarDisplay.lua:290>\n",
+			["file"] = "...nterface\\AddOns\\Skada\\modules\\SkadaDamage\\Damage.lua",
 			["desc"] = "Attempt to index local 'player' (a nil value)",
 		},
 		["916295596267897531236956928991586329626"] = {
@@ -547,9 +547,9 @@ BigFoot_Error = {
 			["desc"] = "CreateFrame: Can't create protected 'Button' now",
 			["race"] = "血精灵",
 			["srcError"] = "BattlePetInfo",
-			["file"] = "...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua",
 			["level"] = 90,
 			["trace"] = "[C]: in function `CreateFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:345: in function `CompactRaidFrameContainer_GetUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:266: in function `CompactRaidFrameContainer_AddPets'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:182: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
+			["file"] = "...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua",
 			["line"] = "345",
 		},
 		["478527225174832045419226943543184401147"] = {
@@ -559,19 +559,19 @@ BigFoot_Error = {
 			["desc"] = "CreateFrame: Can't create protected 'Frame' now",
 			["race"] = "血精灵",
 			["srcError"] = "BattlePetInfo",
-			["file"] = "Interface\\FrameXML\\CompactPartyFrame.lua",
 			["level"] = 90,
 			["trace"] = "[C]: in function `CreateFrame'\nInterface\\FrameXML\\CompactPartyFrame.lua:26: in function `CompactPartyFrame_Generate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:228: in function `CompactRaidFrameContainer_AddGroup'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:215: in function `CompactRaidFrameContainer_AddGroups'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:174: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:76: in function `CompactRaidFrameContainer_SetGroupMode'\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:425: in function <...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:416>\n...mpactRaidFrames\\Blizzard_CompactRaidFrameManager.lua:493: in function `CompactRaidFrameManager_SetSetting'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:572: in function `func'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:549: in function `CompactUnitFrameProfiles_ApplyProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:176: in function `CompactUnitFrameProfiles_ApplyCurrentSettings'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:172: in function `CompactUnitFrameProfiles_ActivateRaidProfile'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:45: in function `CompactUnitFrameProfiles_ValidateProfilesLoaded'\n...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:25: in function <...rd_CUFProfiles\\Blizzard_CompactUnitFrameProfiles.lua:18>\n",
+			["file"] = "Interface\\FrameXML\\CompactPartyFrame.lua",
 			["line"] = "26",
 		},
 		["143638625910460657059558701392937431145"] = {
 			["race"] = "血精灵",
 			["line"] = "7",
-			["file"] = "Interface\\AddOns\\MerInspect\\PVP.lua",
-			["zone"] = "永恒岛",
 			["trace"] = "Interface\\AddOns\\MerInspect\\PVP.lua:7: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n",
-			["class"] = "法师",
+			["zone"] = "永恒岛",
+			["file"] = "Interface\\AddOns\\MerInspect\\PVP.lua",
 			["level"] = 90,
+			["class"] = "法师",
 			["desc"] = "Attempt to call global 'GetInspectArenaTeamData' (a nil value)",
 		},
 	},
@@ -583,19 +583,19 @@ BigFoot_Error = {
 			["desc"] = "CreateFrame: Can't create protected 'Button' now",
 			["race"] = "血精灵",
 			["srcError"] = "BattlePetInfo",
-			["trace"] = "[C]: in function `CreateFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:345: in function `CompactRaidFrameContainer_GetUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:254: in function `CompactRaidFrameContainer_AddPlayers'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:176: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
 			["file"] = "...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua",
 			["level"] = 90,
+			["trace"] = "[C]: in function `CreateFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:345: in function `CompactRaidFrameContainer_GetUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:317: in function `CompactRaidFrameContainer_AddUnitFrame'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:254: in function `CompactRaidFrameContainer_AddPlayers'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:176: in function `CompactRaidFrameContainer_LayoutFrames'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:130: in function `CompactRaidFrameContainer_TryUpdate'\n...actRaidFrames\\Blizzard_CompactRaidFrameContainer.lua:57: in function `CompactRaidFrameContainer_OnEvent'\n[string \"*:OnEvent\"]:1: in function <[string \"*:OnEvent\"]:1>\n",
 			["line"] = "345",
 		},
 		["143638625910460657059558701392937431145"] = {
 			["line"] = "7",
 			["race"] = "血精灵",
-			["class"] = "法师",
-			["zone"] = "决战奥格瑞玛",
 			["level"] = 90,
-			["trace"] = "Interface\\AddOns\\MerInspect\\PVP.lua:7: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n",
+			["zone"] = "决战奥格瑞玛",
+			["class"] = "法师",
 			["file"] = "Interface\\AddOns\\MerInspect\\PVP.lua",
+			["trace"] = "Interface\\AddOns\\MerInspect\\PVP.lua:7: in function `?'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function `BLEVE_c8db7dfdbccc70b6c4ca668944f139f8'\nInterface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1: in function <Interface\\AddOns\\BigFoot\\Library\\BigFootEvent.lua:1>\n",
 			["desc"] = "Attempt to call global 'GetInspectArenaTeamData' (a nil value)",
 		},
 	},
@@ -606,10 +606,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to call method 'GetLink' (a nil value)",
 			["race"] = "血精灵",
-			["file"] = "Interface\\AddOns\\Collector\\Logic\\Logic.lua",
 			["level"] = 110,
-			["line"] = "42",
 			["trace"] = "Interface\\AddOns\\Collector\\Logic\\Logic.lua:42: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `FireBroad'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:83: in function `DealPacket'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:66: in function <...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:41>\n",
+			["line"] = "42",
+			["file"] = "Interface\\AddOns\\Collector\\Logic\\Logic.lua",
 		},
 	},
 	["zhCN7.1.0.605"] = {
@@ -619,10 +619,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index a nil value",
 			["race"] = "血精灵",
-			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:45: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:83: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\events.lua:163: in function `UpdateBagSize'\nInterface\\AddOns\\Combuctor\\events.lua:194: in function `UpdateBagSizesAndTypes'\nInterface\\AddOns\\Combuctor\\events.lua:221: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
-			["line"] = "1194",
 			["level"] = 110,
+			["line"] = "1194",
+			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:45: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[4]\"]:4: in function <[string \"safecall Dispatcher[4]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[4]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:83: in function `RemoveItem'\nInterface\\AddOns\\Combuctor\\events.lua:163: in function `UpdateBagSize'\nInterface\\AddOns\\Combuctor\\events.lua:194: in function `UpdateBagSizesAndTypes'\nInterface\\AddOns\\Combuctor\\events.lua:221: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 		},
 	},
 	["zhCN7.1.0.610"] = {
@@ -633,9 +633,9 @@ BigFoot_Error = {
 			["desc"] = "'then' expected near '<eof>'",
 			["race"] = "血精灵",
 			["line"] = "1",
-			["trace"] = "[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2062: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4385: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4053: in function <Interface\\FrameXML\\ChatFrame.lua:4052>\n[C]: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2660: in function <Interface\\FrameXML\\ChatFrame.lua:2653>\n[C]: ?\n[C]: in function `UseAction'\nInterface\\FrameXML\\SecureTemplates.lua:346: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:619: in function `SecureActionButton_OnClick'\nInterface\\FrameXML\\MultiActionBars.lua:14: in function `MultiActionButtonDown'\n[string \"MULTIACTIONBAR1BUTTON1\"]:2: in function <[string \"MULTIACTIONBAR1BUTTON1\"]:1>\n",
 			["file"] = "[string \"local f=RbA or CreateFrame(\"Frame\",\"RbA\") f:SetScript(\"OnEvent\"...\"]",
 			["level"] = 110,
+			["trace"] = "[C]: in function `RunScript'\nInterface\\FrameXML\\ChatFrame.lua:2062: in function `?'\nInterface\\FrameXML\\ChatFrame.lua:4385: in function `ChatEdit_ParseText'\nInterface\\FrameXML\\ChatFrame.lua:4053: in function <Interface\\FrameXML\\ChatFrame.lua:4052>\n[C]: in function `ChatEdit_SendText'\nInterface\\FrameXML\\ChatFrame.lua:2660: in function <Interface\\FrameXML\\ChatFrame.lua:2653>\n[C]: ?\n[C]: in function `UseAction'\nInterface\\FrameXML\\SecureTemplates.lua:346: in function `handler'\nInterface\\FrameXML\\SecureTemplates.lua:619: in function `SecureActionButton_OnClick'\nInterface\\FrameXML\\MultiActionBars.lua:14: in function `MultiActionButtonDown'\n[string \"MULTIACTIONBAR1BUTTON1\"]:2: in function <[string \"MULTIACTIONBAR1BUTTON1\"]:1>\n",
 			["srcError"] = "BigFootBar",
 		},
 		["3238142123567000369717830967499851147"] = {
@@ -644,10 +644,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index a nil value",
 			["race"] = "血精灵",
-			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function <Interface\\AddOns\\Combuctor\\itemFrame.lua:135>\n(tail call): ?\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:35: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[7]\"]:4: in function <[string \"safecall Dispatcher[7]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[7]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:104: in function `UpdateItem'\nInterface\\AddOns\\Combuctor\\events.lua:111: in function `UpdateItems'\nInterface\\AddOns\\Combuctor\\events.lua:256: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
-			["line"] = "1194",
 			["level"] = 110,
+			["line"] = "1194",
+			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function <Interface\\AddOns\\Combuctor\\itemFrame.lua:135>\n(tail call): ?\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:35: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[7]\"]:4: in function <[string \"safecall Dispatcher[7]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[7]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:104: in function `UpdateItem'\nInterface\\AddOns\\Combuctor\\events.lua:111: in function `UpdateItems'\nInterface\\AddOns\\Combuctor\\events.lua:256: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
 		},
 		["11889205221558716182447354242618393319"] = {
 			["combat"] = false,
@@ -655,10 +655,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Invalid stat index in UnitStat",
 			["race"] = "血精灵",
-			["file"] = "Interface\\AddOns\\BigFootChat\\statReport.lua",
 			["level"] = 110,
-			["line"] = "1",
 			["trace"] = "[C]: in function `UnitStat'\nInterface\\AddOns\\BigFootChat\\statReport.lua:1: in function <Interface\\AddOns\\BigFootChat\\statReport.lua:1>\nInterface\\AddOns\\BigFootChat\\statReport.lua:1: in function `BFCIconFrameReportButton_OnClick'\n[string \"*:OnClick\"]:1: in function <[string \"*:OnClick\"]:1>\n",
+			["line"] = "1",
+			["file"] = "Interface\\AddOns\\BigFootChat\\statReport.lua",
 		},
 	},
 	["zhCN7.1.0.613"] = {
@@ -668,10 +668,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index field 'selectedFriend' (a nil value)",
 			["race"] = "血精灵",
-			["level"] = 110,
 			["trace"] = "Interface\\AddOns\\Collector\\Module\\FriendFeed.lua:168: in function <Interface\\AddOns\\Collector\\Module\\FriendFeed.lua:161>\n(tail call): ?\n[C]: in function `FriendsFrame_SelectFriend'\nInterface\\FrameXML\\FriendsFrame.lua:586: in function `FriendsList_Update'\nInterface\\FrameXML\\FriendsFrame.lua:294: in function <Interface\\FrameXML\\FriendsFrame.lua:292>\n[C]: ?\n[C]: in function `Show'\nInterface\\FrameXML\\UIParent.lua:2374: in function `SetUIPanel'\nInterface\\FrameXML\\UIParent.lua:2215: in function `ShowUIPanel'\nInterface\\FrameXML\\UIParent.lua:2086: in function <Interface\\FrameXML\\UIParent.lua:2082>\n[C]: in function `SetAttribute'\nInterface\\FrameXML\\UIParent.lua:2868: in function `ShowUIPanel'\nInterface\\FrameXML\\FriendsFrame.lua:1111: in function `ToggleFriendsFrame'\n[string \"TOGGLESOCIAL\"]:1: in function <[string \"TOGGLESOCIAL\"]:1>\n",
-			["line"] = "168",
 			["file"] = "Interface\\AddOns\\Collector\\Module\\FriendFeed.lua",
+			["line"] = "168",
+			["level"] = 110,
 		},
 		["3238142123567000369717830967499851147"] = {
 			["combat"] = false,
@@ -679,10 +679,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Attempt to index a nil value",
 			["race"] = "血精灵",
-			["level"] = 110,
 			["trace"] = "Interface\\FrameXML\\ContainerFrame.lua:1194: in function `ContainerFrameItemButton_OnLeave'\n[string \"*:OnLeave\"]:1: in function <[string \"*:OnLeave\"]:1>\n[C]: in function `Hide'\nInterface\\AddOns\\Combuctor\\item.lua:151: in function `Release'\nInterface\\AddOns\\Combuctor\\itemFrame.lua:140: in function <Interface\\AddOns\\Combuctor\\itemFrame.lua:135>\n(tail call): ?\nInterface\\AddOns\\Combuctor\\itemFrameEvents.lua:35: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[7]\"]:4: in function <[string \"safecall Dispatcher[7]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[7]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `SendMessage'\nInterface\\AddOns\\Combuctor\\events.lua:104: in function `UpdateItem'\nInterface\\AddOns\\Combuctor\\events.lua:111: in function `UpdateItems'\nInterface\\AddOns\\Combuctor\\events.lua:222: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[2]\"]:4: in function <[string \"safecall Dispatcher[2]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[2]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `Fire'\n...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:120: in function <...s\\BigFoot\\AceLibs\\Ace3\\AceEvent-3.0\\AceEvent-3.0.lua:119>\n",
-			["line"] = "1194",
 			["file"] = "Interface\\FrameXML\\ContainerFrame.lua",
+			["line"] = "1194",
+			["level"] = 110,
 		},
 		["665432747402935092318101495021680927475"] = {
 			["combat"] = false,
@@ -690,10 +690,10 @@ BigFoot_Error = {
 			["class"] = "恶魔猎手",
 			["desc"] = "Table index is nil",
 			["race"] = "血精灵",
-			["level"] = 110,
 			["trace"] = "Interface\\AddOns\\Collector\\Class\\Object.lua:18: in function `ctor'\n...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:90: in function <...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:82>\n...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:86: in function <...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:82>\n...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:86: in function <...Ons\\BigFoot\\AceLibs\\wyLib\\LibClass-2.0\\Class-2.0.lua:82>\n(tail call): ?\nInterface\\AddOns\\Collector\\Class\\Object.lua:44: in function `Get'\nInterface\\AddOns\\Collector\\Logic\\Logic.lua:55: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145: in function <...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:145>\n[string \"safecall Dispatcher[5]\"]:4: in function <[string \"safecall Dispatcher[5]\"]:4>\n[C]: ?\n[string \"safecall Dispatcher[5]\"]:13: in function `?'\n...ibs\\Ace3\\CallbackHandler-1.0\\CallbackHandler-1.0.lua:90: in function `FireBroad'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:83: in function `DealPacket'\n...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:66: in function <...seBroadMiddleware-2.0\\NetEaseBroadMiddleware-2.0.lua:41>\n",
-			["line"] = "18",
 			["file"] = "Interface\\AddOns\\Collector\\Class\\Object.lua",
+			["line"] = "18",
+			["level"] = 110,
 		},
 	},
 }
@@ -40027,1000 +40027,6 @@ BF_Gloable = {
 				},
 			},
 			["凛若"] = {
-				["简约(大脚推荐)"] = {
-					["Character"] = "默认",
-					["time"] = "默认",
-					["AddonList"] = {
-						{
-							["AddonConfigList"] = {
-								{
-									"ChangeBigFootFont", -- [1]
-								}, -- [1]
-								{
-									"EnableLoadLater", -- [1]
-									true, -- [2]
-								}, -- [2]
-								{
-									"EnableLoadDate", -- [1]
-								}, -- [3]
-								{
-									"EnableShowTextDlg", -- [1]
-								}, -- [4]
-							},
-							["configEnable"] = 1,
-							["name"] = "BigFoot",
-						}, -- [1]
-						{
-							["name"] = "Bartender4",
-							["AddonConfigList"] = {
-								{
-									"EnableBartender4", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [2]
-						{
-							["name"] = "Clique",
-							["AddonConfigList"] = {
-								{
-									"EnableClique", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [3]
-						{
-							["name"] = "Decursive",
-							["AddonConfigList"] = {
-								{
-									"EnableDecursive", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [4]
-						{
-							["name"] = "TheBurningTrade",
-							["AddonConfigList"] = {
-								{
-									"EnableTradeHelper", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [5]
-						{
-							["name"] = "Omen",
-							["AddonConfigList"] = {
-								{
-									"EnableThreat", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [6]
-						{
-							["name"] = "QuestHelperLite",
-							["AddonConfigList"] = {
-								{
-									"EnableQuestHelperLite", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [7]
-						{
-							["name"] = "QuestHubber",
-							["AddonConfigList"] = {
-								{
-									"EnableQuestHubber", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [8]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableYssBossLoot", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "YssBossLoot",
-						}, -- [9]
-						{
-							["name"] = "oRA3",
-							["AddonConfigList"] = {
-								{
-									"EnableoRA3", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [10]
-						{
-							["name"] = "RaidAlerter",
-							["AddonConfigList"] = {
-								{
-									"EnableRaidAlerter", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [11]
-						{
-							["AddonConfigList"] = {
-								{
-									"ButtonMapster", -- [1]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "Mapster",
-						}, -- [12]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableWhisperPop", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "WhisperPop",
-						}, -- [13]
-						{
-							["name"] = "Skada",
-							["AddonConfigList"] = {
-								{
-									"EnableSkada", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [14]
-						{
-							["name"] = "MySlot",
-							["AddonConfigList"] = {
-								{
-									"EnableMySlot", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"EnableButtonBigFootGadget", -- [1]
-								}, -- [2]
-							},
-						}, -- [15]
-						{
-							["name"] = "TargetCharms",
-							["AddonConfigList"] = {
-								{
-									"EnableTargetCharms", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [16]
-						{
-							["name"] = "EventAlertMod",
-							["AddonConfigList"] = {
-								{
-									"EnableEventAlert", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"EventAlert_Option", -- [1]
-								}, -- [2]
-							},
-						}, -- [17]
-						{
-							["name"] = "CoolLine",
-							["AddonConfigList"] = {
-								{
-									"EnableCoolLine", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [18]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableBlizzMove", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BlizzMove",
-						}, -- [19]
-						{
-							["name"] = "Gladius",
-							["AddonConfigList"] = {
-								{
-									"EnableProximo", -- [1]
-								}, -- [1]
-								{
-									"Gladius_option", -- [1]
-								}, -- [2]
-							},
-						}, -- [20]
-						{
-							["name"] = "GladiatorlosSA",
-							["AddonConfigList"] = {
-								{
-									"EnableGladiatorlosSA", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"GladiatorlosSA_Option", -- [1]
-								}, -- [2]
-							},
-						}, -- [21]
-						{
-							["name"] = "ErrorFilter",
-							["AddonConfigList"] = {
-								{
-									"EnableErrorFilter", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [22]
-						{
-							["name"] = "Archy",
-							["AddonConfigList"] = {
-								{
-									"EnableArchy", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [23]
-						{
-							["name"] = "Combuctor",
-							["AddonConfigList"] = {
-								{
-									"Enable_Bank_Integration", -- [1]
-								}, -- [1]
-								{
-									"Enable_BackPack_Integration", -- [1]
-								}, -- [2]
-								{
-									"BackPack_Integration_option", -- [1]
-								}, -- [3]
-							},
-						}, -- [24]
-						{
-							["name"] = "Bagnon_Forever",
-							["AddonConfigList"] = {
-								{
-									"Enable_Bagnon_Forever", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [25]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableTurnIn", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"ButtonTurnIn", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "TurnIn",
-						}, -- [26]
-						{
-							["AddonConfigList"] = {
-								{
-									"Enable_AutoTabard", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "AutoTabard",
-						}, -- [27]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableRatingBuster", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"RatingBuster_Option", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "RatingBuster",
-						}, -- [28]
-						{
-							["name"] = "GearScoreLite",
-							["AddonConfigList"] = {
-								{
-									"EnableGearScore2", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [29]
-						{
-							["name"] = "RangeDisplay",
-							["AddonConfigList"] = {
-								{
-									"EnableRangeDisplay", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [30]
-						{
-							["name"] = "ReforgeLite",
-							["AddonConfigList"] = {
-								{
-									"EnableReforgeLite", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [31]
-						{
-							["name"] = "TrinketMenu",
-							["AddonConfigList"] = {
-								{
-									"EnableTrinketMenu", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"TrinketMenu_Option", -- [1]
-								}, -- [2]
-								{
-									"TrinketMenu_Binding", -- [1]
-								}, -- [3]
-							},
-						}, -- [32]
-						{
-							["AddonConfigList"] = {
-								{
-									"MapMarkEnable", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BigFootMark",
-						}, -- [33]
-						{
-							["name"] = "BFQuest",
-							["AddonConfigList"] = {
-								{
-									"EnableTeamNoticeParty", -- [1]
-								}, -- [1]
-								{
-									"EnableButtonPartyToolkit", -- [1]
-								}, -- [2]
-								{
-									"EnableTeamNoticeRaid", -- [1]
-								}, -- [3]
-								{
-									"EnableButtonPartyToolkit1", -- [1]
-								}, -- [4]
-								{
-									"EnableQuestLvl", -- [1]
-								}, -- [5]
-								{
-									"EnableQuestBroad", -- [1]
-								}, -- [6]
-								{
-									"EnableQuestBroadInfo", -- [1]
-								}, -- [7]
-							},
-						}, -- [34]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableMountEnhance", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFMount",
-						}, -- [35]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableBigFootBot", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BigFootBot",
-						}, -- [36]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableRepairHelper", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"RepairHelper_UseGuildMoney", -- [1]
-								}, -- [2]
-								{
-									"RepairHelper_Enable_Used_SelfMoney_Auto", -- [1]
-								}, -- [3]
-							},
-							["configEnable"] = 1,
-							["name"] = "RepairHelper",
-						}, -- [37]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableCooldownCount2", -- [1]
-								}, -- [1]
-								{
-									"ShineType", -- [1]
-								}, -- [2]
-								{
-									"PlaySound", -- [1]
-								}, -- [3]
-								{
-									"ShowCenter", -- [1]
-								}, -- [4]
-								{
-									"ToggleBar", -- [1]
-								}, -- [5]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFCooldown",
-						}, -- [38]
-						{
-							["AddonConfigList"] = {
-								{
-									"LootListEnable", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "LootListPlus",
-						}, -- [39]
-						{
-							["name"] = "BigFootBar",
-							["AddonConfigList"] = {
-								{
-									"EnableBigFootBar", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [40]
-						{
-							["name"] = "SellerHelper",
-							["AddonConfigList"] = {
-								{
-									"EnableSellerHelper", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"AutoSellPoor", -- [1]
-								}, -- [2]
-								{
-									"SellerHelperNotSellSet", -- [1]
-								}, -- [3]
-								{
-									"SellAccept", -- [1]
-								}, -- [4]
-								{
-									"ARAccept", -- [1]
-								}, -- [5]
-								{
-									"ShowTradeAnnounce", -- [1]
-								}, -- [6]
-								{
-									"EnableAutoRecharge", -- [1]
-								}, -- [7]
-							},
-						}, -- [41]
-						{
-							["name"] = "MiDKP",
-							["AddonConfigList"] = {
-								{
-									"MiDKPEnable", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [42]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableMapPlus", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "MapPlus",
-						}, -- [43]
-						{
-							["name"] = "BuffMaster",
-							["AddonConfigList"] = {
-								{
-									"EnablePartyBuffer", -- [1]
-								}, -- [1]
-								{
-									"EnablePartyShortBuffer", -- [1]
-								}, -- [2]
-								{
-									"BuffMasterShowTimeLeft", -- [1]
-								}, -- [3]
-								{
-									"BuffMasterShowDetailTimeLeft", -- [1]
-									true, -- [2]
-								}, -- [4]
-							},
-						}, -- [44]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableAspectBar", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFClassMods",
-						}, -- [45]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableBigFootGPS", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFGadgets",
-						}, -- [46]
-						{
-							["name"] = "ScreenMark",
-							["AddonConfigList"] = {
-								{
-									"ScreenMark_EnablePhotoMode", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [47]
-						{
-							["name"] = "UnrealEquip",
-							["AddonConfigList"] = {
-								{
-									"EnableUnrealEquip", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [48]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableQuickLoot", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"QuickLootAutoHide", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "QuickLoot",
-						}, -- [49]
-						{
-							["AddonConfigList"] = {
-								{
-									"MobHealthEnable", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"ShowHealthPPT", -- [1]
-								}, -- [2]
-								{
-									"ShowHealthFormat", -- [1]
-								}, -- [3]
-								{
-									"ShowManaPoint", -- [1]
-								}, -- [4]
-								{
-									"ShowHealthPercentv2", -- [1]
-									true, -- [2]
-								}, -- [5]
-								{
-									"TransparentMode", -- [1]
-									true, -- [2]
-								}, -- [6]
-							},
-							["configEnable"] = 1,
-							["name"] = "MobHealth",
-						}, -- [50]
-						{
-							["name"] = "BattleHapper",
-							["AddonConfigList"] = {
-								{
-									"EnableBattleHapper", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [51]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableCombatIndicator", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"EnableCombatLeave", -- [1]
-								}, -- [2]
-								{
-									"EnableShowSpell", -- [1]
-								}, -- [3]
-								{
-									"EnableSpell", -- [1]
-								}, -- [4]
-							},
-							["configEnable"] = 1,
-							["name"] = "CombatIndicator",
-						}, -- [52]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableTUnitFrame", -- [1]
-								}, -- [1]
-								{
-									"BFCH_MYBUFF_SIZE", -- [1]
-								}, -- [2]
-								{
-									"BFCH_OTHERBUFF_SIZE", -- [1]
-								}, -- [3]
-								{
-									"EnablePorEnhance", -- [1]
-								}, -- [4]
-								{
-									"EnablePartyPor", -- [1]
-								}, -- [5]
-								{
-									"EnablePartyCastBar", -- [1]
-								}, -- [6]
-								{
-									"EnablePartyTarget", -- [1]
-								}, -- [7]
-								{
-									"EnableColorize", -- [1]
-								}, -- [8]
-								{
-									"EnableFormatText", -- [1]
-								}, -- [9]
-								{
-									"EnableTargetClassInfo", -- [1]
-								}, -- [10]
-								{
-									"Show3DPortrait", -- [1]
-								}, -- [11]
-								{
-									"EnableEasyFocusFrame", -- [1]
-								}, -- [12]
-								{
-									"EnableTargetTarget", -- [1]
-									true, -- [2]
-								}, -- [13]
-								{
-									"EnableTargetTargetTarget", -- [1]
-									true, -- [2]
-								}, -- [14]
-								{
-									"EnableCastingShining", -- [1]
-								}, -- [15]
-								{
-									"EnableCastingIcon", -- [1]
-								}, -- [16]
-							},
-							["configEnable"] = 1,
-							["name"] = "TUnitFrame",
-						}, -- [53]
-						{
-							["AddonConfigList"] = {
-								{
-									"BFCB", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFCastingBar",
-						}, -- [54]
-						{
-							["name"] = "ezIcons",
-							["AddonConfigList"] = {
-								{
-									"EnableezIcon", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [55]
-						{
-							["name"] = "SpellTimer",
-							["AddonConfigList"] = {
-								{
-									"EnableSpellTimer", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"SpellTimer_option", -- [1]
-								}, -- [2]
-							},
-						}, -- [56]
-						{
-							["name"] = "ItemInfo",
-							["AddonConfigList"] = {
-								{
-									"EnableItemInfo", -- [1]
-								}, -- [1]
-								{
-									"EnableSellValue", -- [1]
-								}, -- [2]
-								{
-									"EnableAuctionInfo", -- [1]
-								}, -- [3]
-								{
-									"EnableAdditionalInfo", -- [1]
-								}, -- [4]
-								{
-									"EnableGemInfo", -- [1]
-								}, -- [5]
-								{
-									"EnableItemQulity", -- [1]
-								}, -- [6]
-								{
-									"EnableAuctionHelper", -- [1]
-								}, -- [7]
-								{
-									"ItemInfoButton", -- [1]
-								}, -- [8]
-							},
-						}, -- [57]
-						{
-							["name"] = "Bartender4_BFMod",
-							["AddonConfigList"] = {
-								{
-									"EnableInfoBoxV2", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"ButtonBartender4_BFMod", -- [1]
-								}, -- [2]
-							},
-						}, -- [58]
-						{
-							["name"] = "PartyAssist",
-							["AddonConfigList"] = {
-								{
-									"EnablePartyAssist", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"8Buttons", -- [1]
-								}, -- [2]
-								{
-									"LiteTips", -- [1]
-								}, -- [3]
-							},
-						}, -- [59]
-						{
-							["name"] = "BubbleChat",
-							["AddonConfigList"] = {
-								{
-									"EnableBubbleChat", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [60]
-						{
-							["name"] = "ChatEnhance",
-							["AddonConfigList"] = {
-								{
-									"EnableScrollChatFrame", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [61]
-						{
-							["name"] = "BigFootChat",
-							["AddonConfigList"] = {
-								{
-									"EnableBFC", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"ButtonBigFootChat", -- [1]
-								}, -- [2]
-							},
-						}, -- [62]
-						{
-							["name"] = "PackUpInventory",
-							["AddonConfigList"] = {
-								{
-									"Enable_PUI", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"ReverseMode", -- [1]
-								}, -- [2]
-							},
-						}, -- [63]
-						{
-							["name"] = "AutoEquip",
-							["AddonConfigList"] = {
-								{
-									"EnableAutoEquip", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"EnableAdvancedMode", -- [1]
-								}, -- [2]
-								{
-									"EnableAutoHide", -- [1]
-								}, -- [3]
-								{
-									"AutoEquip_Option", -- [1]
-								}, -- [4]
-							},
-						}, -- [64]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableMerInspect", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"DisplayStatistics", -- [1]
-								}, -- [2]
-								{
-									"DisplayDurability", -- [1]
-								}, -- [3]
-								{
-									"DisplayItemQulity", -- [1]
-								}, -- [4]
-							},
-							["configEnable"] = 1,
-							["name"] = "MerInspect",
-						}, -- [65]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableQuickCompare", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "QuickCompare",
-						}, -- [66]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableItemLevel", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "ItemLevel",
-						}, -- [67]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableMailMod", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "MailMod",
-						}, -- [68]
-						{
-							["name"] = "GDKP",
-							["AddonConfigList"] = {
-								{
-									"GDKPEnable", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [69]
-						{
-							["name"] = "BFGoldFrame",
-							["AddonConfigList"] = {
-								{
-									"EnableBFGoldFrame", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [70]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnablePlayerLink", -- [1]
-									true, -- [2]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "PlayerLink",
-						}, -- [71]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableChannelFilter", -- [1]
-									true, -- [2]
-								}, -- [1]
-								{
-									"ChannelFilterOptioin", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "ChannelFilter",
-						}, -- [72]
-						{
-							["name"] = "BFTooltip",
-							["AddonConfigList"] = {
-								{
-									"EnableBFTooltip", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"BigFootTooltipPosition", -- [1]
-								}, -- [2]
-								{
-									"BigFootTooltipPositionX", -- [1]
-									"-20", -- [2]
-								}, -- [3]
-								{
-									"BigFootTooltipPositionY", -- [1]
-									"-25", -- [2]
-								}, -- [4]
-								{
-									"BigFootTooltipFade", -- [1]
-									2, -- [2]
-								}, -- [5]
-								{
-									"BigFootTooltipTalent", -- [1]
-								}, -- [6]
-								{
-									"BigFootTooltipCorpse", -- [1]
-								}, -- [7]
-								{
-									"BigFootTooltipToT", -- [1]
-								}, -- [8]
-								{
-									"BigFootTooltipPvP", -- [1]
-								}, -- [9]
-								{
-									"BigFootTooltipGuildRank", -- [1]
-								}, -- [10]
-							},
-						}, -- [73]
-						{
-							["name"] = "DBM-Core",
-							["AddonConfigList"] = {
-								{
-									"EnableDBM", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [74]
-						{
-							["name"] = "dct",
-							["AddonConfigList"] = {
-								{
-									"EnableDCT", -- [1]
-									false, -- [2]
-								}, -- [1]
-								{
-									"dct_option", -- [1]
-								}, -- [2]
-							},
-						}, -- [75]
-						{
-							["name"] = "Grid",
-							["AddonConfigList"] = {
-								{
-									"EnableGrid", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [76]
-						{
-							["name"] = "Recount",
-							["AddonConfigList"] = {
-								{
-									"EnableRecount", -- [1]
-									false, -- [2]
-								}, -- [1]
-							},
-						}, -- [77]
-					},
-					["CheckTime"] = 999999999999,
-					["Inited"] = true,
-					["name"] = "简约(大脚推荐)",
-				},
 				["pvp(大脚推荐)"] = {
 					["Character"] = "默认",
 					["CheckTime"] = 999999999999,
@@ -42035,6 +41041,954 @@ BF_Gloable = {
 					["Inited"] = true,
 					["time"] = "默认",
 				},
+				["Current"] = {
+					["Character"] = "凯恩血蹄-凛若",
+					["CheckTime"] = 1377996195,
+					["time"] = "09/01/13 08:43:15",
+					["AddonList"] = {
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableLoadLater", -- [1]
+								}, -- [1]
+								{
+									"EnableLoadDate", -- [1]
+								}, -- [2]
+								{
+									"EnableShowTextDlg", -- [1]
+								}, -- [3]
+								{
+									"ModifyNumFont", -- [1]
+								}, -- [4]
+								{
+									"enableTutorials", -- [1]
+									false, -- [2]
+								}, -- [5]
+								{
+									"ResetTutorials", -- [1]
+								}, -- [6]
+							},
+							["configEnable"] = 1,
+							["name"] = "BigFoot",
+						}, -- [1]
+						{
+							["name"] = "Bartender4",
+							["AddonConfigList"] = {
+								{
+									"EnableBartender4", -- [1]
+								}, -- [1]
+								{
+									"ButtonBartender4Option", -- [1]
+								}, -- [2]
+							},
+						}, -- [2]
+						{
+							["name"] = "Clique",
+							["AddonConfigList"] = {
+								{
+									"EnableClique", -- [1]
+								}, -- [1]
+							},
+						}, -- [3]
+						{
+							["name"] = "Decursive",
+							["AddonConfigList"] = {
+								{
+									"EnableDecursive", -- [1]
+								}, -- [1]
+							},
+						}, -- [4]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableTradeHelper", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "TheBurningTrade",
+						}, -- [5]
+						{
+							["name"] = "Omen",
+							["AddonConfigList"] = {
+								{
+									"EnableThreat", -- [1]
+								}, -- [1]
+							},
+						}, -- [6]
+						{
+							["name"] = "QuestHelperLite",
+							["AddonConfigList"] = {
+								{
+									"EnableQuestHelperLite", -- [1]
+								}, -- [1]
+							},
+						}, -- [7]
+						{
+							["name"] = "QuestHubber",
+							["AddonConfigList"] = {
+								{
+									"EnableQuestHubber", -- [1]
+								}, -- [1]
+							},
+						}, -- [8]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableButtonFacade", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "ButtonFacade",
+						}, -- [9]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableMasque", -- [1]
+								}, -- [1]
+								{
+									"Masque_BuffDisable", -- [1]
+								}, -- [2]
+								{
+									"MasqueOption", -- [1]
+								}, -- [3]
+							},
+							["configEnable"] = 1,
+							["name"] = "Masque",
+						}, -- [10]
+						{
+							["name"] = "RaidAlerter",
+							["AddonConfigList"] = {
+								{
+									"EnableRaidAlerter", -- [1]
+								}, -- [1]
+							},
+						}, -- [11]
+						{
+							["AddonConfigList"] = {
+								{
+									"ButtonMapster", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "Mapster",
+						}, -- [12]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableWhisperPop", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "WhisperPop",
+						}, -- [13]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableSkada", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "Skada",
+						}, -- [14]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableEventAlert", -- [1]
+								}, -- [1]
+								{
+									"EventAlert_Option", -- [1]
+								}, -- [2]
+								{
+									"Disable_systemspellalert", -- [1]
+								}, -- [3]
+							},
+							["configEnable"] = 1,
+							["name"] = "EventAlertMod",
+						}, -- [15]
+						{
+							["name"] = "TargetCharms",
+							["AddonConfigList"] = {
+								{
+									"EnableTargetCharms", -- [1]
+								}, -- [1]
+								{
+									"TargetCharmsOption", -- [1]
+								}, -- [2]
+							},
+						}, -- [16]
+						{
+							["name"] = "CoolLine",
+							["AddonConfigList"] = {
+								{
+									"EnableCoolLine", -- [1]
+								}, -- [1]
+							},
+						}, -- [17]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBlizzMove", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BlizzMove",
+						}, -- [18]
+						{
+							["name"] = "Gladius",
+							["AddonConfigList"] = {
+								{
+									"EnableProximo", -- [1]
+								}, -- [1]
+								{
+									"Gladius_option", -- [1]
+								}, -- [2]
+							},
+						}, -- [19]
+						{
+							["name"] = "GladiatorlosSA",
+							["AddonConfigList"] = {
+								{
+									"EnableGladiatorlosSA", -- [1]
+								}, -- [1]
+								{
+									"GladiatorlosSA_Option", -- [1]
+								}, -- [2]
+							},
+						}, -- [20]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableErrorFilter", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "ErrorFilter",
+						}, -- [21]
+						{
+							["name"] = "Archy",
+							["AddonConfigList"] = {
+								{
+									"EnableArchy", -- [1]
+								}, -- [1]
+							},
+						}, -- [22]
+						{
+							["AddonConfigList"] = {
+								{
+									"Enable_Bank_Integration", -- [1]
+								}, -- [1]
+								{
+									"Enable_BackPack_Integration", -- [1]
+								}, -- [2]
+								{
+									"BackPack_Integration_option", -- [1]
+								}, -- [3]
+							},
+							["configEnable"] = 1,
+							["name"] = "Combuctor",
+						}, -- [23]
+						{
+							["AddonConfigList"] = {
+								{
+									"Enable_Bagnon_Forever", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "Bagnon_Forever",
+						}, -- [24]
+						{
+							["name"] = "TurnIn",
+							["AddonConfigList"] = {
+								{
+									"EnableTurnIn", -- [1]
+								}, -- [1]
+								{
+									"ButtonTurnIn", -- [1]
+								}, -- [2]
+							},
+						}, -- [25]
+						{
+							["name"] = "RatingBuster",
+							["AddonConfigList"] = {
+								{
+									"EnableRatingBuster", -- [1]
+								}, -- [1]
+								{
+									"RatingBuster_Option", -- [1]
+								}, -- [2]
+							},
+						}, -- [26]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableRangeDisplay", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "RangeDisplay",
+						}, -- [27]
+						{
+							["name"] = "ReforgeLite",
+							["AddonConfigList"] = {
+								{
+									"EnableReforgeLite", -- [1]
+								}, -- [1]
+							},
+						}, -- [28]
+						{
+							["name"] = "TrinketMenu",
+							["AddonConfigList"] = {
+								{
+									"EnableTrinketMenu", -- [1]
+								}, -- [1]
+								{
+									"TrinketMenu_Option", -- [1]
+								}, -- [2]
+								{
+									"TrinketMenu_Binding", -- [1]
+								}, -- [3]
+							},
+						}, -- [29]
+						{
+							["AddonConfigList"] = {
+								{
+									"MapMarkEnable", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BigFootMark",
+						}, -- [30]
+						{
+							["name"] = "AutoEquip",
+							["AddonConfigList"] = {
+								{
+									"EnableAutoEquip", -- [1]
+								}, -- [1]
+								{
+									"EnableAdvancedMode", -- [1]
+								}, -- [2]
+								{
+									"EnableAutoHide", -- [1]
+								}, -- [3]
+								{
+									"AutoEquip_Option", -- [1]
+								}, -- [4]
+							},
+						}, -- [31]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableTeamNoticeParty", -- [1]
+								}, -- [1]
+								{
+									"EnableButtonPartyToolkit", -- [1]
+								}, -- [2]
+								{
+									"EnableTeamNoticeRaid", -- [1]
+								}, -- [3]
+								{
+									"EnableButtonPartyToolkit1", -- [1]
+								}, -- [4]
+								{
+									"EnableQuestLvl", -- [1]
+								}, -- [5]
+								{
+									"EnableQuestBroad", -- [1]
+								}, -- [6]
+								{
+									"EnableQuestBroadInfo", -- [1]
+								}, -- [7]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFQuest",
+						}, -- [32]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootBot", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BigFootBot",
+						}, -- [33]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableRepairHelper", -- [1]
+								}, -- [1]
+								{
+									"RepairHelper_UseGuildMoney", -- [1]
+								}, -- [2]
+								{
+									"RepairHelper_Enable_Used_SelfMoney_Auto", -- [1]
+								}, -- [3]
+							},
+							["configEnable"] = 1,
+							["name"] = "RepairHelper",
+						}, -- [34]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableCooldownCount2", -- [1]
+								}, -- [1]
+								{
+									"ShineType", -- [1]
+								}, -- [2]
+								{
+									"ShowCenter", -- [1]
+								}, -- [3]
+								{
+									"ToggleBar", -- [1]
+								}, -- [4]
+								{
+									"ShowTargetCooldown2", -- [1]
+								}, -- [5]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFCooldown",
+						}, -- [35]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableSellerHelper", -- [1]
+								}, -- [1]
+								{
+									"AutoSellPoor", -- [1]
+								}, -- [2]
+								{
+									"SellerHelperNotSellSet", -- [1]
+								}, -- [3]
+								{
+									"SellAccept", -- [1]
+								}, -- [4]
+								{
+									"ARAccept", -- [1]
+								}, -- [5]
+								{
+									"ShowTradeAnnounce", -- [1]
+								}, -- [6]
+								{
+									"EnableAutoRecharge", -- [1]
+								}, -- [7]
+							},
+							["configEnable"] = 1,
+							["name"] = "SellerHelper",
+						}, -- [36]
+						{
+							["name"] = "MiDKP",
+							["AddonConfigList"] = {
+								{
+									"MiDKPEnable", -- [1]
+								}, -- [1]
+							},
+						}, -- [37]
+						{
+							["name"] = "MapPlus",
+							["AddonConfigList"] = {
+								{
+									"EnableMapPlus", -- [1]
+								}, -- [1]
+							},
+						}, -- [38]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableMountEnhance", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFMount",
+						}, -- [39]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnablePartyBuffer", -- [1]
+								}, -- [1]
+								{
+									"EnablePartyShortBuffer", -- [1]
+								}, -- [2]
+								{
+									"BuffMasterShowTimeLeft", -- [1]
+								}, -- [3]
+								{
+									"BuffMasterShowDetailTimeLeft", -- [1]
+								}, -- [4]
+							},
+							["configEnable"] = 1,
+							["name"] = "BuffMaster",
+						}, -- [40]
+						{
+							["name"] = "BigFootBar",
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootBar", -- [1]
+								}, -- [1]
+								{
+									"Enable_BigFootBar", -- [1]
+								}, -- [2]
+								{
+									"HideTab", -- [1]
+								}, -- [3]
+								{
+									"HideGrid", -- [1]
+								}, -- [4]
+								{
+									"ButtonBigFootBar", -- [1]
+								}, -- [5]
+								{
+									"EnableDistanceAlert", -- [1]
+								}, -- [6]
+							},
+						}, -- [41]
+						{
+							["AddonConfigList"] = {
+								{
+									"BFCB", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFCastingBar",
+						}, -- [42]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableTUnitFrame", -- [1]
+								}, -- [1]
+								{
+									"BFCH_MYBUFF_SIZE", -- [1]
+								}, -- [2]
+								{
+									"BFCH_OTHERBUFF_SIZE", -- [1]
+								}, -- [3]
+								{
+									"EnablePorEnhance", -- [1]
+								}, -- [4]
+								{
+									"ShowXPBar", -- [1]
+								}, -- [5]
+								{
+									"EnablePartyPor", -- [1]
+								}, -- [6]
+								{
+									"EnablePartyCastBar", -- [1]
+								}, -- [7]
+								{
+									"EnablePartyTarget", -- [1]
+								}, -- [8]
+								{
+									"EnableColorize", -- [1]
+								}, -- [9]
+								{
+									"EnableFormatText", -- [1]
+								}, -- [10]
+								{
+									"EnableTargetClassInfo", -- [1]
+								}, -- [11]
+								{
+									"Show3DPortrait", -- [1]
+								}, -- [12]
+								{
+									"EnableEasyFocusFrame", -- [1]
+								}, -- [13]
+								{
+									"EnableTargetTarget", -- [1]
+								}, -- [14]
+								{
+									"EnableTargetTargetTarget", -- [1]
+								}, -- [15]
+								{
+									"EnableCastingShining", -- [1]
+								}, -- [16]
+								{
+									"EnableCastingIcon", -- [1]
+								}, -- [17]
+							},
+							["configEnable"] = 1,
+							["name"] = "TUnitFrame",
+						}, -- [43]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBattlePetInfo", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BattlePetInfo",
+						}, -- [44]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootGPS", -- [1]
+								}, -- [1]
+								{
+									"EnableFasyFocus", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFGadgets",
+						}, -- [45]
+						{
+							["AddonConfigList"] = {
+								{
+									"ScreenMark_EnablePhotoMode", -- [1]
+								}, -- [1]
+								{
+									"ScreenMark_EnableCinematicMode", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "ScreenMark",
+						}, -- [46]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableUnrealEquip", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "UnrealEquip",
+						}, -- [47]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableQuickCompare", -- [1]
+								}, -- [1]
+								{
+									"EnableAchievementCompare", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "QuickCompare",
+						}, -- [48]
+						{
+							["name"] = "BattleHapper",
+							["AddonConfigList"] = {
+								{
+									"EnableBattleHapperWarning", -- [1]
+								}, -- [1]
+								{
+									"EnableBattleHapperWarning", -- [1]
+								}, -- [2]
+								{
+									"EnableBattleHapperDYWarning", -- [1]
+								}, -- [3]
+							},
+						}, -- [49]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableCombatIndicator", -- [1]
+								}, -- [1]
+								{
+									"EnableCombatLeave", -- [1]
+								}, -- [2]
+								{
+									"EnableShowSpell", -- [1]
+								}, -- [3]
+								{
+									"EnableSpell", -- [1]
+								}, -- [4]
+							},
+							["configEnable"] = 1,
+							["name"] = "CombatIndicator",
+						}, -- [50]
+						{
+							["name"] = "ezIcons",
+							["AddonConfigList"] = {
+								{
+									"EnableezIcon", -- [1]
+								}, -- [1]
+							},
+						}, -- [51]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableSpellTimer", -- [1]
+								}, -- [1]
+								{
+									"SpellTimer_option", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "SpellTimer",
+						}, -- [52]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableItemInfo", -- [1]
+								}, -- [1]
+								{
+									"EnableSellValue", -- [1]
+								}, -- [2]
+								{
+									"EnableAuctionInfo", -- [1]
+								}, -- [3]
+								{
+									"EnableAdditionalInfo", -- [1]
+								}, -- [4]
+								{
+									"EnableGemInfo", -- [1]
+								}, -- [5]
+								{
+									"EnableItemQulity", -- [1]
+								}, -- [6]
+								{
+									"EnableAuctionHelper", -- [1]
+								}, -- [7]
+								{
+									"ItemInfoButton", -- [1]
+								}, -- [8]
+								{
+									"EnableAlreadyKnown", -- [1]
+								}, -- [9]
+							},
+							["configEnable"] = 1,
+							["name"] = "ItemInfo",
+						}, -- [53]
+						{
+							["name"] = "Bartender4_BFMod",
+							["AddonConfigList"] = {
+								{
+									"EnableInfoBoxV2", -- [1]
+								}, -- [1]
+								{
+									"ButtonBartender4Option", -- [1]
+								}, -- [2]
+							},
+						}, -- [54]
+						{
+							["AddonConfigList"] = {
+								{
+									"MobHealthEnable", -- [1]
+								}, -- [1]
+								{
+									"ShowHealthPPT", -- [1]
+								}, -- [2]
+								{
+									"ShowHealthFormat", -- [1]
+								}, -- [3]
+								{
+									"ShowManaPoint", -- [1]
+								}, -- [4]
+								{
+									"ShowHealthPercentv2", -- [1]
+								}, -- [5]
+								{
+									"TransparentMode", -- [1]
+								}, -- [6]
+							},
+							["configEnable"] = 1,
+							["name"] = "MobHealth",
+						}, -- [55]
+						{
+							["name"] = "PartyAssist",
+							["AddonConfigList"] = {
+								{
+									"EnablePartyAssist", -- [1]
+								}, -- [1]
+								{
+									"8Buttons", -- [1]
+								}, -- [2]
+								{
+									"LiteTips", -- [1]
+								}, -- [3]
+							},
+						}, -- [56]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBFC", -- [1]
+								}, -- [1]
+								{
+									"ButtonBigFootChat", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "BigFootChat",
+						}, -- [57]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableAspectBar", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFClassMods",
+						}, -- [58]
+						{
+							["AddonConfigList"] = {
+								{
+									"Enable_PUI", -- [1]
+								}, -- [1]
+								{
+									"ReverseMode", -- [1]
+									true, -- [2]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "PackUpInventory",
+						}, -- [59]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableMerInspect", -- [1]
+								}, -- [1]
+								{
+									"DisplayStatistics", -- [1]
+								}, -- [2]
+								{
+									"DisplayDurability", -- [1]
+								}, -- [3]
+								{
+									"DisplayItemQulity", -- [1]
+								}, -- [4]
+							},
+							["configEnable"] = 1,
+							["name"] = "MerInspect",
+						}, -- [60]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableItemLevel", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "ItemLevel",
+						}, -- [61]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableMailMod", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "MailMod",
+						}, -- [62]
+						{
+							["name"] = "GDKP",
+							["AddonConfigList"] = {
+								{
+									"GDKPEnable", -- [1]
+								}, -- [1]
+							},
+						}, -- [63]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBFGoldFrame", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFGoldFrame",
+						}, -- [64]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnablePlayerLink", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "PlayerLink",
+						}, -- [65]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableChannelFilter", -- [1]
+								}, -- [1]
+								{
+									"ChannelFilterOptioin", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "ChannelFilter",
+						}, -- [66]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootBank", -- [1]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BigFootBank",
+						}, -- [67]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBFTooltip", -- [1]
+								}, -- [1]
+								{
+									"BigFootTooltipPosition", -- [1]
+								}, -- [2]
+								{
+									"BigFootTooltipPositionX", -- [1]
+								}, -- [3]
+								{
+									"BigFootTooltipPositionY", -- [1]
+								}, -- [4]
+								{
+									"BigFootTooltipFade", -- [1]
+								}, -- [5]
+								{
+									"BigFootTooltipTalent", -- [1]
+								}, -- [6]
+								{
+									"BigFootTooltipCorpse", -- [1]
+								}, -- [7]
+								{
+									"BigFootTooltipToT", -- [1]
+								}, -- [8]
+								{
+									"BigFootTooltipPvP", -- [1]
+								}, -- [9]
+								{
+									"BigFootTooltipGuildRank", -- [1]
+								}, -- [10]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFTooltip",
+						}, -- [68]
+						{
+							["name"] = "DBM-Core",
+							["AddonConfigList"] = {
+								{
+									"EnableDBM", -- [1]
+								}, -- [1]
+							},
+						}, -- [69]
+						{
+							["name"] = "dct",
+							["AddonConfigList"] = {
+								{
+									"EnableDCT", -- [1]
+								}, -- [1]
+								{
+									"dct_option", -- [1]
+								}, -- [2]
+							},
+						}, -- [70]
+						{
+							["name"] = "Grid",
+							["AddonConfigList"] = {
+								{
+									"EnableGrid", -- [1]
+								}, -- [1]
+							},
+						}, -- [71]
+						{
+							["name"] = "Recount",
+							["AddonConfigList"] = {
+								{
+									"EnableRecount", -- [1]
+								}, -- [1]
+							},
+						}, -- [72]
+					},
+					["Class"] = "法师",
+					["Inited"] = true,
+					["name"] = "Current",
+				},
 				["pve(大脚推荐)"] = {
 					["Character"] = "默认",
 					["time"] = "默认",
@@ -43044,32 +42998,25 @@ BF_Gloable = {
 					["Inited"] = true,
 					["CheckTime"] = 999999999999,
 				},
-				["Current"] = {
-					["Character"] = "凯恩血蹄-凛若",
-					["CheckTime"] = 1377996195,
-					["time"] = "09/01/13 08:43:15",
+				["简约(大脚推荐)"] = {
+					["Character"] = "默认",
+					["time"] = "默认",
 					["AddonList"] = {
 						{
 							["AddonConfigList"] = {
 								{
-									"EnableLoadLater", -- [1]
+									"ChangeBigFootFont", -- [1]
 								}, -- [1]
 								{
-									"EnableLoadDate", -- [1]
+									"EnableLoadLater", -- [1]
+									true, -- [2]
 								}, -- [2]
 								{
-									"EnableShowTextDlg", -- [1]
+									"EnableLoadDate", -- [1]
 								}, -- [3]
 								{
-									"ModifyNumFont", -- [1]
+									"EnableShowTextDlg", -- [1]
 								}, -- [4]
-								{
-									"enableTutorials", -- [1]
-									false, -- [2]
-								}, -- [5]
-								{
-									"ResetTutorials", -- [1]
-								}, -- [6]
 							},
 							["configEnable"] = 1,
 							["name"] = "BigFoot",
@@ -43079,10 +43026,8 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableBartender4", -- [1]
+									false, -- [2]
 								}, -- [1]
-								{
-									"ButtonBartender4Option", -- [1]
-								}, -- [2]
 							},
 						}, -- [2]
 						{
@@ -43090,6 +43035,7 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableClique", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [3]
@@ -43098,23 +43044,25 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableDecursive", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [4]
 						{
+							["name"] = "TheBurningTrade",
 							["AddonConfigList"] = {
 								{
 									"EnableTradeHelper", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "TheBurningTrade",
 						}, -- [5]
 						{
 							["name"] = "Omen",
 							["AddonConfigList"] = {
 								{
 									"EnableThreat", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [6]
@@ -43123,6 +43071,7 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableQuestHelperLite", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [7]
@@ -43131,38 +43080,35 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableQuestHubber", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [8]
 						{
 							["AddonConfigList"] = {
 								{
-									"EnableButtonFacade", -- [1]
+									"EnableYssBossLoot", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
-							["name"] = "ButtonFacade",
+							["name"] = "YssBossLoot",
 						}, -- [9]
 						{
+							["name"] = "oRA3",
 							["AddonConfigList"] = {
 								{
-									"EnableMasque", -- [1]
+									"EnableoRA3", -- [1]
+									false, -- [2]
 								}, -- [1]
-								{
-									"Masque_BuffDisable", -- [1]
-								}, -- [2]
-								{
-									"MasqueOption", -- [1]
-								}, -- [3]
 							},
-							["configEnable"] = 1,
-							["name"] = "Masque",
 						}, -- [10]
 						{
 							["name"] = "RaidAlerter",
 							["AddonConfigList"] = {
 								{
 									"EnableRaidAlerter", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
 						}, -- [11]
@@ -43179,64 +43125,73 @@ BF_Gloable = {
 							["AddonConfigList"] = {
 								{
 									"EnableWhisperPop", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "WhisperPop",
 						}, -- [13]
 						{
+							["name"] = "Skada",
 							["AddonConfigList"] = {
 								{
 									"EnableSkada", -- [1]
-									true, -- [2]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "Skada",
 						}, -- [14]
 						{
+							["name"] = "MySlot",
 							["AddonConfigList"] = {
 								{
-									"EnableEventAlert", -- [1]
+									"EnableMySlot", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
-									"EventAlert_Option", -- [1]
+									"EnableButtonBigFootGadget", -- [1]
 								}, -- [2]
-								{
-									"Disable_systemspellalert", -- [1]
-								}, -- [3]
 							},
-							["configEnable"] = 1,
-							["name"] = "EventAlertMod",
 						}, -- [15]
 						{
 							["name"] = "TargetCharms",
 							["AddonConfigList"] = {
 								{
 									"EnableTargetCharms", -- [1]
+									false, -- [2]
 								}, -- [1]
-								{
-									"TargetCharmsOption", -- [1]
-								}, -- [2]
 							},
 						}, -- [16]
+						{
+							["name"] = "EventAlertMod",
+							["AddonConfigList"] = {
+								{
+									"EnableEventAlert", -- [1]
+									false, -- [2]
+								}, -- [1]
+								{
+									"EventAlert_Option", -- [1]
+								}, -- [2]
+							},
+						}, -- [17]
 						{
 							["name"] = "CoolLine",
 							["AddonConfigList"] = {
 								{
 									"EnableCoolLine", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [17]
+						}, -- [18]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableBlizzMove", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "BlizzMove",
-						}, -- [18]
+						}, -- [19]
 						{
 							["name"] = "Gladius",
 							["AddonConfigList"] = {
@@ -43247,36 +43202,39 @@ BF_Gloable = {
 									"Gladius_option", -- [1]
 								}, -- [2]
 							},
-						}, -- [19]
+						}, -- [20]
 						{
 							["name"] = "GladiatorlosSA",
 							["AddonConfigList"] = {
 								{
 									"EnableGladiatorlosSA", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"GladiatorlosSA_Option", -- [1]
 								}, -- [2]
 							},
-						}, -- [20]
+						}, -- [21]
 						{
+							["name"] = "ErrorFilter",
 							["AddonConfigList"] = {
 								{
 									"EnableErrorFilter", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "ErrorFilter",
-						}, -- [21]
+						}, -- [22]
 						{
 							["name"] = "Archy",
 							["AddonConfigList"] = {
 								{
 									"EnableArchy", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [22]
+						}, -- [23]
 						{
+							["name"] = "Combuctor",
 							["AddonConfigList"] = {
 								{
 									"Enable_Bank_Integration", -- [1]
@@ -43288,62 +43246,85 @@ BF_Gloable = {
 									"BackPack_Integration_option", -- [1]
 								}, -- [3]
 							},
-							["configEnable"] = 1,
-							["name"] = "Combuctor",
-						}, -- [23]
+						}, -- [24]
 						{
+							["name"] = "Bagnon_Forever",
 							["AddonConfigList"] = {
 								{
 									"Enable_Bagnon_Forever", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "Bagnon_Forever",
-						}, -- [24]
+						}, -- [25]
 						{
-							["name"] = "TurnIn",
 							["AddonConfigList"] = {
 								{
 									"EnableTurnIn", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
 									"ButtonTurnIn", -- [1]
 								}, -- [2]
 							},
-						}, -- [25]
+							["configEnable"] = 1,
+							["name"] = "TurnIn",
+						}, -- [26]
 						{
-							["name"] = "RatingBuster",
+							["AddonConfigList"] = {
+								{
+									"Enable_AutoTabard", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "AutoTabard",
+						}, -- [27]
+						{
 							["AddonConfigList"] = {
 								{
 									"EnableRatingBuster", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
 									"RatingBuster_Option", -- [1]
 								}, -- [2]
 							},
-						}, -- [26]
+							["configEnable"] = 1,
+							["name"] = "RatingBuster",
+						}, -- [28]
 						{
+							["name"] = "GearScoreLite",
+							["AddonConfigList"] = {
+								{
+									"EnableGearScore2", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [29]
+						{
+							["name"] = "RangeDisplay",
 							["AddonConfigList"] = {
 								{
 									"EnableRangeDisplay", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "RangeDisplay",
-						}, -- [27]
+						}, -- [30]
 						{
 							["name"] = "ReforgeLite",
 							["AddonConfigList"] = {
 								{
 									"EnableReforgeLite", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [28]
+						}, -- [31]
 						{
 							["name"] = "TrinketMenu",
 							["AddonConfigList"] = {
 								{
 									"EnableTrinketMenu", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"TrinketMenu_Option", -- [1]
@@ -43352,34 +43333,19 @@ BF_Gloable = {
 									"TrinketMenu_Binding", -- [1]
 								}, -- [3]
 							},
-						}, -- [29]
+						}, -- [32]
 						{
 							["AddonConfigList"] = {
 								{
 									"MapMarkEnable", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "BigFootMark",
-						}, -- [30]
+						}, -- [33]
 						{
-							["name"] = "AutoEquip",
-							["AddonConfigList"] = {
-								{
-									"EnableAutoEquip", -- [1]
-								}, -- [1]
-								{
-									"EnableAdvancedMode", -- [1]
-								}, -- [2]
-								{
-									"EnableAutoHide", -- [1]
-								}, -- [3]
-								{
-									"AutoEquip_Option", -- [1]
-								}, -- [4]
-							},
-						}, -- [31]
-						{
+							["name"] = "BFQuest",
 							["AddonConfigList"] = {
 								{
 									"EnableTeamNoticeParty", -- [1]
@@ -43403,22 +43369,32 @@ BF_Gloable = {
 									"EnableQuestBroadInfo", -- [1]
 								}, -- [7]
 							},
+						}, -- [34]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableMountEnhance", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
 							["configEnable"] = 1,
-							["name"] = "BFQuest",
-						}, -- [32]
+							["name"] = "BFMount",
+						}, -- [35]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableBigFootBot", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "BigFootBot",
-						}, -- [33]
+						}, -- [36]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableRepairHelper", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
 									"RepairHelper_UseGuildMoney", -- [1]
@@ -43429,7 +43405,7 @@ BF_Gloable = {
 							},
 							["configEnable"] = 1,
 							["name"] = "RepairHelper",
-						}, -- [34]
+						}, -- [37]
 						{
 							["AddonConfigList"] = {
 								{
@@ -43439,22 +43415,43 @@ BF_Gloable = {
 									"ShineType", -- [1]
 								}, -- [2]
 								{
-									"ShowCenter", -- [1]
+									"PlaySound", -- [1]
 								}, -- [3]
 								{
-									"ToggleBar", -- [1]
+									"ShowCenter", -- [1]
 								}, -- [4]
 								{
-									"ShowTargetCooldown2", -- [1]
+									"ToggleBar", -- [1]
 								}, -- [5]
 							},
 							["configEnable"] = 1,
 							["name"] = "BFCooldown",
-						}, -- [35]
+						}, -- [38]
 						{
 							["AddonConfigList"] = {
 								{
+									"LootListEnable", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "LootListPlus",
+						}, -- [39]
+						{
+							["name"] = "BigFootBar",
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootBar", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [40]
+						{
+							["name"] = "SellerHelper",
+							["AddonConfigList"] = {
+								{
 									"EnableSellerHelper", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"AutoSellPoor", -- [1]
@@ -43475,35 +43472,28 @@ BF_Gloable = {
 									"EnableAutoRecharge", -- [1]
 								}, -- [7]
 							},
-							["configEnable"] = 1,
-							["name"] = "SellerHelper",
-						}, -- [36]
+						}, -- [41]
 						{
 							["name"] = "MiDKP",
 							["AddonConfigList"] = {
 								{
 									"MiDKPEnable", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [37]
+						}, -- [42]
 						{
-							["name"] = "MapPlus",
 							["AddonConfigList"] = {
 								{
 									"EnableMapPlus", -- [1]
-								}, -- [1]
-							},
-						}, -- [38]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableMountEnhance", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
-							["name"] = "BFMount",
-						}, -- [39]
+							["name"] = "MapPlus",
+						}, -- [43]
 						{
+							["name"] = "BuffMaster",
 							["AddonConfigList"] = {
 								{
 									"EnablePartyBuffer", -- [1]
@@ -43516,43 +43506,116 @@ BF_Gloable = {
 								}, -- [3]
 								{
 									"BuffMasterShowDetailTimeLeft", -- [1]
+									true, -- [2]
 								}, -- [4]
 							},
-							["configEnable"] = 1,
-							["name"] = "BuffMaster",
-						}, -- [40]
+						}, -- [44]
 						{
-							["name"] = "BigFootBar",
 							["AddonConfigList"] = {
 								{
-									"EnableBigFootBar", -- [1]
+									"EnableAspectBar", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFClassMods",
+						}, -- [45]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableBigFootGPS", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "BFGadgets",
+						}, -- [46]
+						{
+							["name"] = "ScreenMark",
+							["AddonConfigList"] = {
+								{
+									"ScreenMark_EnablePhotoMode", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [47]
+						{
+							["name"] = "UnrealEquip",
+							["AddonConfigList"] = {
+								{
+									"EnableUnrealEquip", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [48]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableQuickLoot", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
-									"Enable_BigFootBar", -- [1]
+									"QuickLootAutoHide", -- [1]
+								}, -- [2]
+							},
+							["configEnable"] = 1,
+							["name"] = "QuickLoot",
+						}, -- [49]
+						{
+							["AddonConfigList"] = {
+								{
+									"MobHealthEnable", -- [1]
+									true, -- [2]
+								}, -- [1]
+								{
+									"ShowHealthPPT", -- [1]
 								}, -- [2]
 								{
-									"HideTab", -- [1]
+									"ShowHealthFormat", -- [1]
 								}, -- [3]
 								{
-									"HideGrid", -- [1]
+									"ShowManaPoint", -- [1]
 								}, -- [4]
 								{
-									"ButtonBigFootBar", -- [1]
+									"ShowHealthPercentv2", -- [1]
+									true, -- [2]
 								}, -- [5]
 								{
-									"EnableDistanceAlert", -- [1]
+									"TransparentMode", -- [1]
+									true, -- [2]
 								}, -- [6]
 							},
-						}, -- [41]
+							["configEnable"] = 1,
+							["name"] = "MobHealth",
+						}, -- [50]
+						{
+							["name"] = "BattleHapper",
+							["AddonConfigList"] = {
+								{
+									"EnableBattleHapper", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [51]
 						{
 							["AddonConfigList"] = {
 								{
-									"BFCB", -- [1]
+									"EnableCombatIndicator", -- [1]
+									true, -- [2]
 								}, -- [1]
+								{
+									"EnableCombatLeave", -- [1]
+								}, -- [2]
+								{
+									"EnableShowSpell", -- [1]
+								}, -- [3]
+								{
+									"EnableSpell", -- [1]
+								}, -- [4]
 							},
 							["configEnable"] = 1,
-							["name"] = "BFCastingBar",
-						}, -- [42]
+							["name"] = "CombatIndicator",
+						}, -- [52]
 						{
 							["AddonConfigList"] = {
 								{
@@ -43568,156 +43631,80 @@ BF_Gloable = {
 									"EnablePorEnhance", -- [1]
 								}, -- [4]
 								{
-									"ShowXPBar", -- [1]
+									"EnablePartyPor", -- [1]
 								}, -- [5]
 								{
-									"EnablePartyPor", -- [1]
+									"EnablePartyCastBar", -- [1]
 								}, -- [6]
 								{
-									"EnablePartyCastBar", -- [1]
+									"EnablePartyTarget", -- [1]
 								}, -- [7]
 								{
-									"EnablePartyTarget", -- [1]
+									"EnableColorize", -- [1]
 								}, -- [8]
 								{
-									"EnableColorize", -- [1]
+									"EnableFormatText", -- [1]
 								}, -- [9]
 								{
-									"EnableFormatText", -- [1]
+									"EnableTargetClassInfo", -- [1]
 								}, -- [10]
 								{
-									"EnableTargetClassInfo", -- [1]
+									"Show3DPortrait", -- [1]
 								}, -- [11]
 								{
-									"Show3DPortrait", -- [1]
+									"EnableEasyFocusFrame", -- [1]
 								}, -- [12]
 								{
-									"EnableEasyFocusFrame", -- [1]
+									"EnableTargetTarget", -- [1]
+									true, -- [2]
 								}, -- [13]
 								{
-									"EnableTargetTarget", -- [1]
+									"EnableTargetTargetTarget", -- [1]
+									true, -- [2]
 								}, -- [14]
 								{
-									"EnableTargetTargetTarget", -- [1]
+									"EnableCastingShining", -- [1]
 								}, -- [15]
 								{
-									"EnableCastingShining", -- [1]
-								}, -- [16]
-								{
 									"EnableCastingIcon", -- [1]
-								}, -- [17]
+								}, -- [16]
 							},
 							["configEnable"] = 1,
 							["name"] = "TUnitFrame",
-						}, -- [43]
+						}, -- [53]
 						{
 							["AddonConfigList"] = {
 								{
-									"EnableBattlePetInfo", -- [1]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BattlePetInfo",
-						}, -- [44]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableBigFootGPS", -- [1]
-								}, -- [1]
-								{
-									"EnableFasyFocus", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFGadgets",
-						}, -- [45]
-						{
-							["AddonConfigList"] = {
-								{
-									"ScreenMark_EnablePhotoMode", -- [1]
-								}, -- [1]
-								{
-									"ScreenMark_EnableCinematicMode", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "ScreenMark",
-						}, -- [46]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableUnrealEquip", -- [1]
+									"BFCB", -- [1]
 									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
-							["name"] = "UnrealEquip",
-						}, -- [47]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableQuickCompare", -- [1]
-								}, -- [1]
-								{
-									"EnableAchievementCompare", -- [1]
-								}, -- [2]
-							},
-							["configEnable"] = 1,
-							["name"] = "QuickCompare",
-						}, -- [48]
-						{
-							["name"] = "BattleHapper",
-							["AddonConfigList"] = {
-								{
-									"EnableBattleHapperWarning", -- [1]
-								}, -- [1]
-								{
-									"EnableBattleHapperWarning", -- [1]
-								}, -- [2]
-								{
-									"EnableBattleHapperDYWarning", -- [1]
-								}, -- [3]
-							},
-						}, -- [49]
-						{
-							["AddonConfigList"] = {
-								{
-									"EnableCombatIndicator", -- [1]
-								}, -- [1]
-								{
-									"EnableCombatLeave", -- [1]
-								}, -- [2]
-								{
-									"EnableShowSpell", -- [1]
-								}, -- [3]
-								{
-									"EnableSpell", -- [1]
-								}, -- [4]
-							},
-							["configEnable"] = 1,
-							["name"] = "CombatIndicator",
-						}, -- [50]
+							["name"] = "BFCastingBar",
+						}, -- [54]
 						{
 							["name"] = "ezIcons",
 							["AddonConfigList"] = {
 								{
 									"EnableezIcon", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [51]
+						}, -- [55]
 						{
+							["name"] = "SpellTimer",
 							["AddonConfigList"] = {
 								{
 									"EnableSpellTimer", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"SpellTimer_option", -- [1]
 								}, -- [2]
 							},
-							["configEnable"] = 1,
-							["name"] = "SpellTimer",
-						}, -- [52]
+						}, -- [56]
 						{
+							["name"] = "ItemInfo",
 							["AddonConfigList"] = {
 								{
 									"EnableItemInfo", -- [1]
@@ -43743,53 +43730,26 @@ BF_Gloable = {
 								{
 									"ItemInfoButton", -- [1]
 								}, -- [8]
-								{
-									"EnableAlreadyKnown", -- [1]
-								}, -- [9]
 							},
-							["configEnable"] = 1,
-							["name"] = "ItemInfo",
-						}, -- [53]
+						}, -- [57]
 						{
 							["name"] = "Bartender4_BFMod",
 							["AddonConfigList"] = {
 								{
 									"EnableInfoBoxV2", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
-									"ButtonBartender4Option", -- [1]
+									"ButtonBartender4_BFMod", -- [1]
 								}, -- [2]
 							},
-						}, -- [54]
-						{
-							["AddonConfigList"] = {
-								{
-									"MobHealthEnable", -- [1]
-								}, -- [1]
-								{
-									"ShowHealthPPT", -- [1]
-								}, -- [2]
-								{
-									"ShowHealthFormat", -- [1]
-								}, -- [3]
-								{
-									"ShowManaPoint", -- [1]
-								}, -- [4]
-								{
-									"ShowHealthPercentv2", -- [1]
-								}, -- [5]
-								{
-									"TransparentMode", -- [1]
-								}, -- [6]
-							},
-							["configEnable"] = 1,
-							["name"] = "MobHealth",
-						}, -- [55]
+						}, -- [58]
 						{
 							["name"] = "PartyAssist",
 							["AddonConfigList"] = {
 								{
 									"EnablePartyAssist", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"8Buttons", -- [1]
@@ -43798,45 +43758,72 @@ BF_Gloable = {
 									"LiteTips", -- [1]
 								}, -- [3]
 							},
-						}, -- [56]
+						}, -- [59]
 						{
+							["name"] = "BubbleChat",
+							["AddonConfigList"] = {
+								{
+									"EnableBubbleChat", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [60]
+						{
+							["name"] = "ChatEnhance",
+							["AddonConfigList"] = {
+								{
+									"EnableScrollChatFrame", -- [1]
+									false, -- [2]
+								}, -- [1]
+							},
+						}, -- [61]
+						{
+							["name"] = "BigFootChat",
 							["AddonConfigList"] = {
 								{
 									"EnableBFC", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"ButtonBigFootChat", -- [1]
 								}, -- [2]
 							},
-							["configEnable"] = 1,
-							["name"] = "BigFootChat",
-						}, -- [57]
+						}, -- [62]
 						{
-							["AddonConfigList"] = {
-								{
-									"EnableAspectBar", -- [1]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BFClassMods",
-						}, -- [58]
-						{
+							["name"] = "PackUpInventory",
 							["AddonConfigList"] = {
 								{
 									"Enable_PUI", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"ReverseMode", -- [1]
-									true, -- [2]
 								}, -- [2]
 							},
-							["configEnable"] = 1,
-							["name"] = "PackUpInventory",
-						}, -- [59]
+						}, -- [63]
+						{
+							["name"] = "AutoEquip",
+							["AddonConfigList"] = {
+								{
+									"EnableAutoEquip", -- [1]
+									false, -- [2]
+								}, -- [1]
+								{
+									"EnableAdvancedMode", -- [1]
+								}, -- [2]
+								{
+									"EnableAutoHide", -- [1]
+								}, -- [3]
+								{
+									"AutoEquip_Option", -- [1]
+								}, -- [4]
+							},
+						}, -- [64]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableMerInspect", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
 									"DisplayStatistics", -- [1]
@@ -43850,55 +43837,70 @@ BF_Gloable = {
 							},
 							["configEnable"] = 1,
 							["name"] = "MerInspect",
-						}, -- [60]
+						}, -- [65]
+						{
+							["AddonConfigList"] = {
+								{
+									"EnableQuickCompare", -- [1]
+									true, -- [2]
+								}, -- [1]
+							},
+							["configEnable"] = 1,
+							["name"] = "QuickCompare",
+						}, -- [66]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableItemLevel", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "ItemLevel",
-						}, -- [61]
+						}, -- [67]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableMailMod", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "MailMod",
-						}, -- [62]
+						}, -- [68]
 						{
 							["name"] = "GDKP",
 							["AddonConfigList"] = {
 								{
 									"GDKPEnable", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [63]
+						}, -- [69]
 						{
+							["name"] = "BFGoldFrame",
 							["AddonConfigList"] = {
 								{
 									"EnableBFGoldFrame", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-							["configEnable"] = 1,
-							["name"] = "BFGoldFrame",
-						}, -- [64]
+						}, -- [70]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnablePlayerLink", -- [1]
+									true, -- [2]
 								}, -- [1]
 							},
 							["configEnable"] = 1,
 							["name"] = "PlayerLink",
-						}, -- [65]
+						}, -- [71]
 						{
 							["AddonConfigList"] = {
 								{
 									"EnableChannelFilter", -- [1]
+									true, -- [2]
 								}, -- [1]
 								{
 									"ChannelFilterOptioin", -- [1]
@@ -43906,32 +43908,28 @@ BF_Gloable = {
 							},
 							["configEnable"] = 1,
 							["name"] = "ChannelFilter",
-						}, -- [66]
+						}, -- [72]
 						{
-							["AddonConfigList"] = {
-								{
-									"EnableBigFootBank", -- [1]
-								}, -- [1]
-							},
-							["configEnable"] = 1,
-							["name"] = "BigFootBank",
-						}, -- [67]
-						{
+							["name"] = "BFTooltip",
 							["AddonConfigList"] = {
 								{
 									"EnableBFTooltip", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"BigFootTooltipPosition", -- [1]
 								}, -- [2]
 								{
 									"BigFootTooltipPositionX", -- [1]
+									"-20", -- [2]
 								}, -- [3]
 								{
 									"BigFootTooltipPositionY", -- [1]
+									"-25", -- [2]
 								}, -- [4]
 								{
 									"BigFootTooltipFade", -- [1]
+									2, -- [2]
 								}, -- [5]
 								{
 									"BigFootTooltipTalent", -- [1]
@@ -43949,48 +43947,50 @@ BF_Gloable = {
 									"BigFootTooltipGuildRank", -- [1]
 								}, -- [10]
 							},
-							["configEnable"] = 1,
-							["name"] = "BFTooltip",
-						}, -- [68]
+						}, -- [73]
 						{
 							["name"] = "DBM-Core",
 							["AddonConfigList"] = {
 								{
 									"EnableDBM", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [69]
+						}, -- [74]
 						{
 							["name"] = "dct",
 							["AddonConfigList"] = {
 								{
 									"EnableDCT", -- [1]
+									false, -- [2]
 								}, -- [1]
 								{
 									"dct_option", -- [1]
 								}, -- [2]
 							},
-						}, -- [70]
+						}, -- [75]
 						{
 							["name"] = "Grid",
 							["AddonConfigList"] = {
 								{
 									"EnableGrid", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [71]
+						}, -- [76]
 						{
 							["name"] = "Recount",
 							["AddonConfigList"] = {
 								{
 									"EnableRecount", -- [1]
+									false, -- [2]
 								}, -- [1]
 							},
-						}, -- [72]
+						}, -- [77]
 					},
-					["Class"] = "法师",
+					["CheckTime"] = 999999999999,
 					["Inited"] = true,
-					["name"] = "Current",
+					["name"] = "简约(大脚推荐)",
 				},
 			},
 			["小诺"] = {
