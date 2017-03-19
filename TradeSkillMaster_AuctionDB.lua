@@ -1,6 +1,8 @@
 
 TradeSkillMaster_AuctionDBDB = {
 	["g@ @showAHTab"] = true,
+	["g@ @scanDataEU"] = "",
+	["g@ @lastUpdateUS"] = 0,
 	["_scopeKeys"] = {
 		["char"] = {
 			"若凛 - 凯恩血蹄", -- [1]
@@ -12,25 +14,23 @@ TradeSkillMaster_AuctionDBDB = {
 			"Aomiz - 凯恩血蹄", -- [7]
 			"水猎丶 - 凯恩血蹄", -- [8]
 		},
-		["factionrealm"] = {
-			"Horde - 凯恩血蹄", -- [1]
+		["realm"] = {
+			"凯恩血蹄", -- [1]
 		},
 		["profile"] = {
 			"Default", -- [1]
 		},
-		["realm"] = {
-			"凯恩血蹄", -- [1]
+		["factionrealm"] = {
+			"Horde - 凯恩血蹄", -- [1]
 		},
 	},
-	["g@ @lastUpdateUS"] = 0,
-	["g@ @scanDataEU"] = "",
 	["g@ @helpPlatesShown"] = {
 		["auction"] = true,
 	},
-	["_hash"] = 6312798,
+	["r@凯恩血蹄@hasAppData"] = true,
 	["r@凯恩血蹄@lastSaveTime"] = 1487586227,
 	["g@ @scanDataUS"] = "",
-	["r@凯恩血蹄@hasAppData"] = true,
+	["_hash"] = 6312798,
 	["g@ @lastUpdateEU"] = 0,
 	["r@凯恩血蹄@lastPartialScan"] = 1487579804,
 	["r@凯恩血蹄@lastCompleteScan"] = 0,
@@ -38,12 +38,12 @@ TradeSkillMaster_AuctionDBDB = {
 	["_version"] = 2,
 	["_currentProfile"] = {
 		["若凛 - 凯恩血蹄"] = "Default",
-		["水猎丶 - 凯恩血蹄"] = "Default",
+		["Aomiz - 凯恩血蹄"] = "Default",
 		["凛若 - 凯恩血蹄"] = "Default",
 		["若丶 - 凯恩血蹄"] = "Default",
-		["若凌 - 凯恩血蹄"] = "Default",
+		["水猎丶 - 凯恩血蹄"] = "Default",
 		["Aom - 凯恩血蹄"] = "Default",
 		["水牧丶 - 凯恩血蹄"] = "Default",
-		["Aomiz - 凯恩血蹄"] = "Default",
+		["若凌 - 凯恩血蹄"] = "Default",
 	},
 }
