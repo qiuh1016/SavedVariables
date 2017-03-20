@@ -30,10 +30,10 @@ TradeSkillMaster_AuctioningDB = {
 		["水猎丶"] = true,
 		["水牧丶"] = true,
 		["若丶"] = true,
-		["凛若"] = true,
+		["若凛"] = true,
 		["Aomiz"] = true,
 		["若凌"] = true,
-		["若凛"] = true,
+		["凛若"] = true,
 	},
 	["g@ @helpPlatesShown"] = {
 		["selection"] = true,
@@ -47,12 +47,12 @@ TradeSkillMaster_AuctioningDB = {
 	["_version"] = 1,
 	["_currentProfile"] = {
 		["若凛 - 凯恩血蹄"] = "Default",
-		["Aomiz - 凯恩血蹄"] = "Default",
+		["若凌 - 凯恩血蹄"] = "Default",
 		["凛若 - 凯恩血蹄"] = "Default",
 		["若丶 - 凯恩血蹄"] = "Default",
-		["水猎丶 - 凯恩血蹄"] = "Default",
+		["Aomiz - 凯恩血蹄"] = "Default",
 		["Aom - 凯恩血蹄"] = "Default",
 		["水牧丶 - 凯恩血蹄"] = "Default",
-		["若凌 - 凯恩血蹄"] = "Default",
+		["水猎丶 - 凯恩血蹄"] = "Default",
 	},
 }
